@@ -1,0 +1,133 @@
+2020-04-16 15:01:30|   0.0|  0.0|INFORM|FME 2019.0.2.0 (20190605 - Build 19260 - WIN32)
+2020-04-16 15:01:30|   0.0|  0.0|INFORM|FME_HOME is 'E:\FME\'
+2020-04-16 15:01:30|   0.0|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
+2020-04-16 15:01:30|   0.0|  0.0|INFORM|Permanent License.
+2020-04-16 15:01:30|   0.0|  0.0|INFORM|Machine host name is: DESKTOP-Q54CD2H
+2020-04-16 15:01:30|   0.0|  0.0|INFORM|START - ProcessID: 7396, peak process memory usage: 36280 kB, current process memory usage: 36280 kB
+2020-04-16 15:01:30|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `E:\FME\fme.exe' `C:/Users/YJ/Documents/GitHub/Chengyuanbei/工具与代码\wb-xlate-158702048860_6432' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{b3b8d500-6a8c-48bb-bac7-b334a32adc11}'
+2020-04-16 15:01:30|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\YJ\AppData\Roaming\Safe Software\FME\'
+2020-04-16 15:01:30|   0.1|  0.1|INFORM|Shared folders for formats are : E:\FME\datasources;C:\Users\YJ\Documents\FME\Formats
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|Shared folders for transformers are : C:\Users\YJ\AppData\Roaming\Safe Software\FME\Packages\19260-win32\transformers;E:\FME\transformers
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\YJ\Documents\FME\CoordinateSystems
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\YJ\Documents\FME\CoordinateSystemExceptions
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\YJ\Documents\FME\CoordinateSystemGridOverrides
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\YJ\Documents\FME\CsmapTransformationExceptions
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\YJ\Documents\FME\TransformerCategories
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\YJ\Documents\GitHub\Chengyuanbei\工具与代码'
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\YJ\AppData\Local\Temp', set from environment variable `TEMP'
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: FME_HOME is `E:\FME\'
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\YJ\Documents\GitHub\Chengyuanbei\工具与代码/'
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: FME_MF_NAME is '道路畅通状况.fmw'
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2019.0.2.0'
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|System Status: 145.62 GB of disk space available in the FME temporary folder (C:\Users\YJ\AppData\Local\Temp)
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|System Status: 4.00 GB of virtual memory available
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 17134)
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Platform: WIN32
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|Locale: zh_CN
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|Code Page: 936   (ANSI/OEM - 简体中文 GBK)
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: Process limits are 3.83 GB of physical memory and 4.00 GB of address space
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 2.30 GB of memory or 3.41 GB of address space
+2020-04-16 15:01:30|   0.1|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 1.72 GB of memory and 2.56 GB of address space
+2020-04-16 15:01:30|   0.2|  0.0|INFORM|Creating writer for format: 
+2020-04-16 15:01:30|   0.2|  0.0|INFORM|Creating reader for format: 
+2020-04-16 15:01:30|   0.2|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2020-04-16 15:01:30|   0.2|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2020-04-16 15:01:30|   0.2|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2020-04-16 15:01:30|   0.2|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2020-04-16 15:01:30|   0.2|  0.0|INFORM|Loaded module 'LogCount_func' from file 'E:\FME\plugins/LogCount_func.dll'
+2020-04-16 15:01:30|   0.2|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20181030)
+2020-04-16 15:01:30|   0.2|  0.0|INFORM|Loaded module 'PythonFactory' from file 'E:\FME\plugins/PythonFactory.dll'
+2020-04-16 15:01:30|   0.2|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (3.8 20181030)
+2020-04-16 15:01:30|   0.2|  0.0|INFORM|Using Python interpreter from `E:\FME\fmepython37\python37.dll' with PYTHONHOME `E:\FME\fmepython37'
+2020-04-16 15:01:30|   0.2|  0.0|INFORM|Python version 3.7 loaded successfully
+2020-04-16 15:01:30|   0.2|  0.0|INFORM|Adding folder `C:\Users\YJ\Documents\GitHub\Chengyuanbei\工具与代码\' to the python path
+2020-04-16 15:01:30|   0.3|  0.1|INFORM|Emptying factory pipeline
+2020-04-16 15:01:30|   0.3|  0.0|STATS |Router and Unexpected Input Remover (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2020-04-16 15:01:30|   0.3|  0.0|STATS |Unexpected Input Remover Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-04-16 15:01:30|   0.3|  0.0|STATS |北京市_西城区 (ESRISHAPE_1) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-04-16 15:01:30|   0.3|  0.0|STATS |Restoring 1449 feature(s) from FME feature store file `C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_SpatialFilter -1 24 fo 0 PASSED  0  f19277dae1c9057200e82b350c58c10932fe499d.ffs'
+2020-04-16 15:01:30|   0.3|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_BoundsExtractor -1 21 fo 0 OUTPUT  0  dc4cf4c80e8207af81975c64583ab6b83d0d6479.ffsupdating'
+2020-04-16 15:01:30|   0.3|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_AttributeRounder -1 20 fo 0 OUTPUT  0  d203a46b782e7dea327d6cd34e18ef6382714a18.ffsupdating'
+2020-04-16 15:01:31|   0.7|  0.4|INFORM|SpatialFilter_PASSED_-1_32_Player (RecorderFactory): Played back 1449 feature(s) from file `C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_SpatialFilter -1 24 fo 0 PASSED  0  f19277dae1c9057200e82b350c58c10932fe499d.ffs'
+2020-04-16 15:01:31|   0.7|  0.0|STATS |BoundsExtractor (TeeFactory): Cloned 1449 input feature(s) into 1449 output feature(s)
+2020-04-16 15:01:31|   0.7|  0.0|STATS |BoundsExtractor_OUTPUT Feature Counter -1 23 (TeeFactory): Cloned 1449 input feature(s) into 1449 output feature(s)
+2020-04-16 15:01:31|   0.7|  0.0|STATS |AttributeRounder (TestFactory): Tested 1449 input feature(s) -- 1449 feature(s) passed and 0 feature(s) failed
+2020-04-16 15:01:31|   0.7|  0.0|STATS |AttributeRounder_AttributeRounder (TeeFactory): Cloned 1449 input feature(s) into 1449 output feature(s)
+2020-04-16 15:01:31|   0.7|  0.0|STATS |AttributeRounder_OUTPUT Feature Counter -1 25 (TeeFactory): Cloned 1449 input feature(s) into 1449 output feature(s)
+2020-04-16 15:01:31|   0.7|  0.0|STATS |AttributeRounder_<REJECTED> Feature Counter -1 2147680276 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-04-16 15:01:31|   0.7|  0.0|STATS |AttributeRounder_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-04-16 15:01:31|   0.7|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_PythonCaller -1 19 fo 0 OUTPUT  0  0bc6f7866ef6b0e6144640143f61fca54e1de66f.ffsupdating'
+2020-04-16 15:01:31|   0.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_Sampler_2 -1 26 fo 1 NOT_SAMPLED  0  4545335025c03caf7bb8148773818a0a16c11ddc.ffsupdating'
+2020-04-16 15:01:38|   6.0|  5.2|STATS |PythonCaller_OUTPUT Feature Counter -1 27 (TeeFactory): Cloned 1449 input feature(s) into 1449 output feature(s)
+2020-04-16 15:01:38|   6.0|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_Sampler_2 -1 26 fo 0 SAMPLED  0  07207debe1aae5315b10ab8046c2f78897a5b769.ffsupdating'
+2020-04-16 15:01:38|   6.1|  0.1|INFORM|Creating writer for format: JSON (JavaScript Object Notation)
+2020-04-16 15:01:38|   6.1|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `JSON'
+2020-04-16 15:01:40|   6.1|  0.0|INFORM|Loaded module 'JSON' from file 'E:\FME\plugins/JSON.dll'
+2020-04-16 15:01:40|   6.1|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-04-16 15:01:40|   6.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2020-04-16 15:01:40|   6.1|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-04-16 15:01:40|   6.1|  0.0|INFORM|Writer `JSON_1' of type `JSON' using group definition keyword `JSON_1_DEF'
+2020-04-16 15:01:40|   6.1|  0.0|INFORM|FME API version of module 'JSON' matches current internal version (3.8 20181030)
+2020-04-16 15:01:40|   6.1|  0.0|INFORM|Opening the JSON writer with destination dataset 'C:\Users\YJ\Desktop\西城区格网坐标点.json'
+2020-04-16 15:01:40|   6.1|  0.0|INFORM|FME Configuration: Destination coordinate system set to input coordinate system `LL-WGS84'
+2020-04-16 15:01:41|   6.3|  0.2|STATS |Sampler_2 (SamplingFactory): Sampled 1 of 1449 feature(s)
+2020-04-16 15:01:41|   6.3|  0.0|STATS |Sampler_2_Sampled (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2020-04-16 15:01:41|   6.3|  0.0|STATS |Stored 1449 feature(s) to FME feature store file `C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_BoundsExtractor -1 21 fo 0 OUTPUT  0  dc4cf4c80e8207af81975c64583ab6b83d0d6479.ffsupdating'
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|Saving spatial index into file 'C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_BoundsExtractor -1 21 fo 0 OUTPUT  0  dc4cf4c80e8207af81975c64583ab6b83d0d6479.fsi'
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_BoundsExtractor -1 21 fo 0 OUTPUT  0  dc4cf4c80e8207af81975c64583ab6b83d0d6479.fsi'
+2020-04-16 15:01:41|   6.3|  0.0|STATS |Stored 1449 feature(s) to FME feature store file `C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_AttributeRounder -1 20 fo 0 OUTPUT  0  d203a46b782e7dea327d6cd34e18ef6382714a18.ffsupdating'
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|Saving spatial index into file 'C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_AttributeRounder -1 20 fo 0 OUTPUT  0  d203a46b782e7dea327d6cd34e18ef6382714a18.fsi'
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_AttributeRounder -1 20 fo 0 OUTPUT  0  d203a46b782e7dea327d6cd34e18ef6382714a18.fsi'
+2020-04-16 15:01:41|   6.3|  0.0|STATS |Stored 1449 feature(s) to FME feature store file `C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_PythonCaller -1 19 fo 0 OUTPUT  0  0bc6f7866ef6b0e6144640143f61fca54e1de66f.ffsupdating'
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|Saving spatial index into file 'C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_PythonCaller -1 19 fo 0 OUTPUT  0  0bc6f7866ef6b0e6144640143f61fca54e1de66f.fsi'
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_PythonCaller -1 19 fo 0 OUTPUT  0  0bc6f7866ef6b0e6144640143f61fca54e1de66f.fsi'
+2020-04-16 15:01:41|   6.3|  0.0|STATS |Stored 1448 feature(s) to FME feature store file `C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_Sampler_2 -1 26 fo 1 NOT_SAMPLED  0  4545335025c03caf7bb8148773818a0a16c11ddc.ffsupdating'
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|Saving spatial index into file 'C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_Sampler_2 -1 26 fo 1 NOT_SAMPLED  0  4545335025c03caf7bb8148773818a0a16c11ddc.fsi'
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_Sampler_2 -1 26 fo 1 NOT_SAMPLED  0  4545335025c03caf7bb8148773818a0a16c11ddc.fsi'
+2020-04-16 15:01:41|   6.3|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_Sampler_2 -1 26 fo 0 SAMPLED  0  07207debe1aae5315b10ab8046c2f78897a5b769.ffsupdating'
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|Saving spatial index into file 'C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_Sampler_2 -1 26 fo 0 SAMPLED  0  07207debe1aae5315b10ab8046c2f78897a5b769.fsi'
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\YJ\AppData\Local\Temp\wb-cache--Yolztq\Main_Sampler_2 -1 26 fo 0 SAMPLED  0  07207debe1aae5315b10ab8046c2f78897a5b769.fsi'
+2020-04-16 15:01:41|   6.3|  0.0|STATS |Sampler_2_SAMPLED Feature Counter -1 28 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2020-04-16 15:01:41|   6.3|  0.0|STATS |Sampler_2_NOT_SAMPLED Feature Counter -1 2147680282 (TeeFactory): Cloned 1448 input feature(s) into 0 output feature(s)
+2020-04-16 15:01:41|   6.3|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 1 input feature(s), wrote 1 output feature(s): 0 matched merge filters, 1 were routed to output, 0 could not be routed.
+2020-04-16 15:01:41|   6.3|  0.0|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|Closing the JSON writer
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|Feature output statistics for `JSON' writer using keyword `JSON_1':
+2020-04-16 15:01:41|   6.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-16 15:01:41|   6.3|  0.0|STATS |                               Features Written
+2020-04-16 15:01:41|   6.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-16 15:01:41|   6.3|  0.0|STATS |北京市_西城区                                                                1
+2020-04-16 15:01:41|   6.3|  0.0|STATS |==============================================================================
+2020-04-16 15:01:41|   6.3|  0.0|STATS |Total Features Written                                                       1
+2020-04-16 15:01:41|   6.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-16 15:01:41|   6.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-16 15:01:41|   6.3|  0.0|STATS |                            Features Read Summary
+2020-04-16 15:01:41|   6.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-16 15:01:41|   6.3|  0.0|STATS |==============================================================================
+2020-04-16 15:01:41|   6.3|  0.0|STATS |Total Features Read                                                          0
+2020-04-16 15:01:41|   6.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-16 15:01:41|   6.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-16 15:01:41|   6.3|  0.0|STATS |                           Features Written Summary
+2020-04-16 15:01:41|   6.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-16 15:01:41|   6.3|  0.0|STATS |北京市_西城区                                                                1
+2020-04-16 15:01:41|   6.3|  0.0|STATS |==============================================================================
+2020-04-16 15:01:41|   6.3|  0.0|STATS |Total Features Written                                                       1
+2020-04-16 15:01:41|   6.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-16 15:01:41|   6.3|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2020-04-16 15:01:41|   6.3|  0.0|WARN  |-~                                                                             ~-
+2020-04-16 15:01:41|   6.3|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2020-04-16 15:01:41|   6.3|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2020-04-16 15:01:41|   6.3|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2020-04-16 15:01:41|   6.3|  0.0|WARN  |-~                                                                             ~-
+2020-04-16 15:01:41|   6.3|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (1 feature(s) output)
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|FME Session Duration: 10.7 seconds. (CPU: 5.7s user, 0.6s system)
+2020-04-16 15:01:41|   6.3|  0.0|INFORM|END - ProcessID: 7396, peak process memory usage: 334064 kB, current process memory usage: 92440 kB

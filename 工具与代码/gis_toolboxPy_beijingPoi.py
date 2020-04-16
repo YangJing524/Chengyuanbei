@@ -1,4 +1,4 @@
-# coding:utf-8
+﻿# coding:utf-8
 # author: yangjing
 # time:2020-01-08
 
@@ -119,8 +119,8 @@ def getGaodePois(keyword):
 
     key = 'b01803a8d6382fc3dbeaf2d7fcf319df'
     # Eight locations
-    city_code=["110101","110102","110105","110106","110107","110108"]
-
+    #city_code=["110101","110102","110105","110106","110107","110108"]
+    city_code=["110102"]
 
 
     url1 = "https://restapi.amap.com/v3/place/text?keywords="+keyword+"&city="
