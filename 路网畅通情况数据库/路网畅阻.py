@@ -6,6 +6,24 @@ import time
 import math
 
 
+<<<<<<< HEAD
+=======
+data=json.load(open('西城区格网坐标点.json','r',encoding='utf8'))
+a=demjson.decode(data[0]['_jsonBounding'])
+
+header={
+        "Authorization": "",
+        "X-Auth-Token": "",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36",
+        "version": "Android 8.5.1",
+        "deviceID": "",
+        "channelID": "PPZhuShou",
+        "Content-Type": "application/json",
+        "Host": "restapi.amap.com",
+        "Connection": "Keep-Alive",
+        "Accept-Encoding": "gzip",
+    }
+>>>>>>> a98b2dd62e4d294202368fc84117e32616be852d
 
 def gcj2wgs(loc):
 
@@ -38,8 +56,52 @@ def gcj2wgs(loc):
     return wgsLon, wgsLat
 
 
+<<<<<<< HEAD
 data=json.load(open('西城区格网坐标点.json','r',encoding='utf8'))
 a=demjson.decode(data[0]['_jsonBounding'])
+=======
+
+    '''
+    {'info': 'OK',
+ 'infocode': '10000',
+ 'status': '1',
+ 'trafficinfo': {'description': '西局东街：西三环南路附近双向畅通。',
+  'evaluation': {'blocked': '0.00%',
+   'congested': '0.00%',
+   'description': '整体畅通',
+   'expedite': '100.00%',
+   'status': '1',
+   'unknown': '0.00%'},
+  'roads': [{'angle': '2',
+    'direction': '从西三环南路辅路到北京西站南路',
+    'lcodes': '7954,7955',
+    'name': '西局东街',
+    'polyline': '116.311913,39.8748627;116.313171,39.8748627;116.313408,39.8748703;116.315331,39.8748665;116.31601,39.8748703;116.316269,39.8748741;116.316376,39.8748894;116.316696,39.8749352;116.316833,39.8749542;116.31694,39.8749771;116.317284,39.8750648;116.31739,39.8750916;116.317467,39.8751183;116.317543,39.8751411;116.317627,39.8751564;116.31797,39.8751717;116.318634,39.8751717;116.319412,39.8751602;116.319771,39.8751717;116.319885,39.8751678;116.320038,39.8751717;116.320808,39.8751602;116.320961,39.8751602;116.321075,39.8751564',
+    'speed': '20',
+    'status': '1'},
+   {'angle': '183',
+    'direction': '从太平桥路到西三环南路辅路',
+    'lcodes': '-7953',
+    'name': '西局东街',
+    'polyline': '116.317963,39.875206;116.317619,39.8751831;116.317535,39.8751717;116.317459,39.875145;116.317368,39.8751183;116.317284,39.8750916;116.316933,39.8750076;116.316818,39.8749886;116.316673,39.8749619;116.316376,39.8749161;116.316269,39.8749008;116.31601,39.874897;116.315331,39.874897;116.313408,39.874897;116.313171,39.8748932;116.311913,39.8748932',
+    'speed': '20',
+    'status': '1'}]}}
+    '''
+    def get_line():
+        spRef = arcpy.SpatialReference("WGS 1984")
+        name=districts_level['name']
+        lines = districts_level['polyline'].split('|')
+        featureList=[]
+        for line in lines:
+            points = line.split(";")
+            point = arcpy.Point()
+            array = arcpy.Array()
+            for p in points:
+                point.X, point.Y = gcj2wgs(p)
+                array.add(point)
+            polyline = arcpy.Polygon(array, spRef)
+            featureList.append(polyline)
+>>>>>>> a98b2dd62e4d294202368fc84117e32616be852d
 
 header={
         "Authorization": "",
@@ -53,6 +115,7 @@ header={
         "Accept-Encoding": "gzip",
     }
 
+<<<<<<< HEAD
 key = '27ff9958e48d17b03afa5cf06e9ae185'
 url="https://restapi.amap.com/v3/traffic/status/rectangle?rectangle={0},{1};{2},{3}&extensions=all&key="+key
 d={}
@@ -67,9 +130,24 @@ for i in range(_length):
     d[i]=response.content.decode('utf-8')
     d['Datetime']=currentTime
     time.sleep(round(1/18,3))
+=======
+
+    _length=len()
+    x_min = a[0]['x_min']
+    y_min = a[0]['y_min']
+    x_max = a[0]['x_max']
+    y_max = a[0]['y_max']
+
+    url = "https://restapi.amap.com/v3/traffic/status/rectangle?rectangle={0},{1};{2},{3}&extensions=all&key=" + key
+    _url = url.format(x_min, y_min, x_max, y_max)
+    response = requests.get(_url, headers=header)
+
+    get_line()
+>>>>>>> a98b2dd62e4d294202368fc84117e32616be852d
 
 tmp=time.ctime()[:-5].split(':')
 
+<<<<<<< HEAD
 file_name=tmp[0]+'时'+tmp[1]+'分'+tmp[2]+'秒'
 
 with open('{}.txt'.format(file_name),'wb') as f:
@@ -77,3 +155,6 @@ with open('{}.txt'.format(file_name),'wb') as f:
 
 # with open('dump.txt','rb+') as f:
 #     pickle.load(f)
+=======
+getShapefile()
+>>>>>>> a98b2dd62e4d294202368fc84117e32616be852d
