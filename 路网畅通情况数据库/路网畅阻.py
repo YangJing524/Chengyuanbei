@@ -1,33 +1,11 @@
 import json
+import pickle
 import demjson
-import os
 import requests
-import re
 import time
-import arcpy
-import numpy as np
-import sys
-import time
-reload(sys)
-sys.setdefaultencoding('utf-8')
 import math
 
 
-data=json.load(open('西城区格网坐标点.json','r',encoding='utf8'))
-a=demjson.decode(data[0]['_jsonBounding'])
-
-header={
-        "Authorization": "",
-        "X-Auth-Token": "",
-        "User-Agent": "com.tianyancha.skyeye/Dalvik/2.1.0 (Linux; U; Android 9; oppo qbs Build/PKQ1.180819.001;)",
-        "version": "Android 8.5.1",
-        "deviceID": "",
-        "channelID": "PPZhuShou",
-        "Content-Type": "application/json",
-        "Host": "restapi.amap.com",
-        "Connection": "Keep-Alive",
-        "Accept-Encoding": "gzip",
-    }
 
 def gcj2wgs(loc):
 
@@ -53,61 +31,49 @@ def gcj2wgs(loc):
     magic = math.sin(radLat)
     magic = 1 - ee * magic * magic
     sqrtMagic = math.sqrt(magic)
-    dLat = (dLat * 180.0) / ((a * (1 - ee)) / (magic * sqrtMagic) * PI);
-    dLon = (dLon * 180.0) / (a / sqrtMagic * math.cos(radLat) * PI);
+    dLat = (dLat * 180.0) / ((a * (1 - ee)) / (magic * sqrtMagic) * PI)
+    dLon = (dLon * 180.0) / (a / sqrtMagic * math.cos(radLat) * PI)
     wgsLon = lon - dLon
     wgsLat = lat - dLat
     return wgsLon, wgsLat
 
-def getShapefile():
-    key = 'b01803a8d6382fc3dbeaf2d7fcf319df'
-    # subdistrict=1 can set [0,1,2,3]
 
-    x_min=a[0]['x_min']
-    y_min=a[0]['y_min']
-    x_max=a[0]['x_max']
-    y_max=a[0]['y_max']
+data=json.load(open('西城区格网坐标点.json','r',encoding='utf8'))
+a=demjson.decode(data[0]['_jsonBounding'])
 
-    url="https://restapi.amap.com/v3/traffic/status/rectangle?rectangle={0},{1};{2},{3}&extensions=all&key="+key
-    url=url.format(x_min,y_min,x_max,y_max)
+header={
+        "Authorization": "",
+        "X-Auth-Token": "",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36",
+        "version": "Android 8.5.1",
+        "deviceID": "",
+        "Content-Type": "application/json",
+        "Host": "lbs.amap.com",
+        "Connection": "Keep-Alive",
+        "Accept-Encoding": "gzip",
+    }
 
-    def get_line():
-        spRef = arcpy.SpatialReference("WGS 1984")
-        name=districts_level['name']
-        lines = districts_level['polyline'].split('|')
-        featureList=[]
-        for line in lines:
-            points = line.split(";")
-            point = arcpy.Point()
-            array = arcpy.Array()
-            for p in points:
-                point.X, point.Y = gcj2wgs(p)
-                array.add(point)
-            polyline = arcpy.Polygon(array, spRef)
-            featureList.append(polyline)
+key = '27ff9958e48d17b03afa5cf06e9ae185'
+url="https://restapi.amap.com/v3/traffic/status/rectangle?rectangle={0},{1};{2},{3}&extensions=all&key="+key
+d={}
+currentTime = time.ctime()
+_length=len(a)
+for i in range(_length):
+    x_min=a[i]['x_min']
+    y_min=a[i]['y_min']
+    x_max=a[i]['x_max']
+    y_max=a[i]['y_max']
+    response=requests.get(url.format(x_min,y_min,x_max,y_max),headers=header)
+    d[i]=response.content.decode('utf-8')
+    d['Datetime']=currentTime
+    time.sleep(round(1/18,3))
 
-        arcpy.CopyFeatures_management(featureList, os.path.split(output_tabel_path)[0]+"\\"+city_param+'_'+name+'.shp')
+tmp=time.ctime()[:-5].split(':')
 
-    # http://restapi.amap.com/v3/config/district?extensions=all&subdistrict=0&key=b01803a8d6382fc3dbeaf2d7fcf319df&keywords=110103
-    for adcode in city_code:
-        _url = url + "&keywords=" + adcode
-        response = requests.get(_url, headers=header)
-        try:
-            districts_level = response.json()['districts'][0]
-        except:
-            districts_level = response.json()
-        # districts_level = shapes['districts']
-        get_line()
+file_name=tmp[0]+'时'+tmp[1]+'分'+tmp[2]+'秒'
 
-    arcpy.AddMessage("==Success to create shape file==")
-    arcpy.AddMessage("==== Made by YangJing =====")
-    time.sleep(3)
-    # try:
-    #     get_line()
-    # except :
-    #     arcpy.AddMessage("Can not create polyline" )
-    #     pass
+with open('{}.txt'.format(file_name),'wb') as f:
+    pickle.dump(d,f)
 
-
-
-getShapefile()
+# with open('dump.txt','rb+') as f:
+#     pickle.load(f)
