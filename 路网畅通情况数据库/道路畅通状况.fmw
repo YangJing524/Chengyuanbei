@@ -2,9 +2,10 @@
 #! <WORKSPACE
 #    要在工作空间中运行的命令行:
 #        E:\FME2019\fme.exe "C:\Users\yj\Desktop\城 · 垣\路网畅通情况数据库\道路畅通状况.fmw"
-#              --SourceDataset_ESRISHAPE "C:\Users\YJ\Desktop\城垣\基础数据库\北京市_西城区.shp"
+#              --SourceDataset_ESRISHAPE "C:\Users\yj\Desktop\城 · 垣\基础数据库\北京市_西城区.shp"
 #              --FEATURE_TYPES ""
 #              --DestDataset_JSON "C:\Users\YJ\Desktop\西城区格网坐标点.json"
+#              --DestDataset_FILEGDB "C:\Users\yj\Desktop\城 · 垣\路网畅通情况数据库\实时路网畅阻情况数据.gdb"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -13,14 +14,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="4328.63 1694.26"
-#!   DOC_TOP_LEFT="-1793.39 -1351.01"
+#!   DOC_EXTENTS="4781.13 1417.02"
+#!   DOC_TOP_LEFT="-2245.89 -939.759"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="19260"
-#!   FME_DOCUMENT_GUID="8c356634-8fbe-45ba-954e-d3459aca6591"
-#!   FME_DOCUMENT_PRIORGUID="ea5f3c50-38ef-4ec0-aaae-52f7092dea7f,7f6cdb74-0f06-4884-bb08-5ff8820930b0,34127818-0f6c-446e-a211-e7ef6a21d678"
+#!   FME_DOCUMENT_GUID="03331357-9254-4082-bab1-be80074ead21"
+#!   FME_DOCUMENT_PRIORGUID="ea5f3c50-38ef-4ec0-aaae-52f7092dea7f,7f6cdb74-0f06-4884-bb08-5ff8820930b0,34127818-0f6c-446e-a211-e7ef6a21d678,8c356634-8fbe-45ba-954e-d3459aca6591,0798b3dd-02e3-4e7a-bac8-8bc2495ed845,04159843-9f8f-469b-9163-8db8cd995335,ad381d0c-c33e-43d5-8967-b72171bcd5c0"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -29,7 +30,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2019.0.2.0 (20190605 - Build 19260 - WIN32)"
-#!   LAST_SAVE_DATE="2020-04-17T23:59:01"
+#!   LAST_SAVE_DATE="2020-04-18T11:36:35"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -48,7 +49,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-2407.52 542.505"
+#!   VIEW_POSITION="-3887.54 40.0004"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -67,7 +68,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="SHAPE_GEOMETRY char(50) fme_dataset char(50) shape_geometry_error{} char(254) fme_fill_color char(50) fme_basename char(50) fme_secondary_axis double fme_rotation double fme_primary_axis double shape_measures char(254) fme_text_size double fme_color char(50) fme_sweep_angle double multi_reader_type char(50) fme_text_string char(50) multi_reader_keyword char(50) fme_type char(50) multi_reader_id long fme_feature_type char(50) fme_geometry char(50) multi_reader_full_id long fme_start_angle double"
+#!   EXPOSABLE_ATTRS="fme_dataset char(50) fme_type char(50) multi_reader_full_id long shape_measures char(254) fme_text_size double fme_geometry char(50) multi_reader_id long fme_basename char(50) SHAPE_GEOMETRY char(50) fme_start_angle double shape_geometry_error{} char(254) fme_feature_type char(50) fme_primary_axis double fme_rotation double fme_sweep_angle double fme_secondary_axis double multi_reader_type char(50) fme_color char(50) fme_text_string char(50) fme_fill_color char(50) multi_reader_keyword char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -125,7 +126,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_primary_axis float fme_text_string string fme_geometry string fme_type string fme_basename string fme_color string fme_feature_type string fme_text_size float fme_dataset string fme_secondary_axis float fme_sweep_angle float fme_rotation float fme_start_angle float fme_fill_color string"
+#!   EXPOSABLE_ATTRS="fme_color string fme_text_string string fme_type string fme_geometry string fme_sweep_angle float fme_dataset string fme_feature_type string fme_primary_axis float fme_start_angle float fme_basename string fme_secondary_axis float fme_rotation float fme_text_size float fme_fill_color string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -153,6 +154,65 @@
 #! <METAFILE_PARAMETER
 #!   NAME="WRITER_DATASET_HINT"
 #!   VALUE="Specify a name for the JSON file"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="FILEGDB"
+#!   DATASET="$(DestDataset_FILEGDB)"
+#!   KEYWORD="FILEGDB_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="64"
+#!   ATTR_CASE="ANY_FIRST_NONNUMERIC"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="filegdb_type {FME_GEN_GEOMETRY} filegdb_drop_table &quot;&quot; filegdb_truncate_table &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; fme_update_geometry YES filegdb_object_id_field OBJECTID filegdb_object_id_alias OBJECTID filegdb_shape_field SHAPE filegdb_shape_alias SHAPE filegdb_config_keyword DEFAULTS filegdb_xy_tolerance &quot;&quot; filegdb_z_tolerance 0.001 filegdb_m_tolerance 0.001"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_color text(50) fme_text_string text(50) fme_type text(50) fme_geometry text(50) fme_sweep_angle double fme_dataset text(50) fme_db_operation text(16) fme_feature_type text(50) fme_primary_axis double fme_start_angle double fme_basename text(50) fme_secondary_axis double fme_rotation double fme_text_size double fme_fill_color text(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%mie_pack%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group,mie_pack%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI WHOLE_LINE LOOKUP_CHOICE fme_update_geometry Yes,YES%No,NO Update Spatial Column(s)&quot; YES &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group filegdb_object_id_field%filegdb_object_id_alias%filegdb_shape_field%filegdb_shape_alias%filegdb_config_keyword%filegdb_xy_tolerance%filegdb_z_tolerance%filegdb_m_tolerance Table Creation Parameters&quot; &quot;&quot; &quot;GUI TEXT filegdb_object_id_field Object ID Field&quot; OBJECTID &quot;GUI TEXT filegdb_object_id_alias Object ID Alias&quot; OBJECTID &quot;GUI TEXT filegdb_shape_field Shape Field&quot; SHAPE &quot;GUI TEXT filegdb_shape_alias Shape Alias&quot; SHAPE &quot;GUI TEXT filegdb_config_keyword Configuration Keyword&quot; DEFAULTS &quot;GUI OPTIONAL FLOAT filegdb_xy_tolerance XY Tolerance&quot; &quot;&quot; &quot;GUI FLOAT filegdb_z_tolerance Z Tolerance&quot; 0.001 &quot;GUI FLOAT filegdb_m_tolerance M Tolerance&quot; 0.001 "
+#!   ATTR_INDEX_TYPES="Indexed"
+#!   ATTR_NAME_INVALID_CHARS="\\&quot;:$?*)(&lt;&gt;|[%# &apos;&amp;+-].^\{\}~,/"
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="GEODATABASE"
+#!   GENERATE_FME_BUILD_NUM="19260"
+#!   COORDSYS=""
+#!   FANOUT_EXPRESSION=""
+#!   FANOUT_GROUP="NO"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="FILEGDB_IN_BEGIN_SQL FILEGDB_IN_END_SQL FILEGDB_OUT_BEGIN_SQL FILEGDB_OUT_END_SQL"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING_HISTORIC"
+#!   VALUE="ALL"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="gdb file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="FeatureClass1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Feature Class or Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the File Geodatabase folder"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify File Geodatabase folder"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -481,6 +541,162 @@
 #!   FME_TYPE="fme_json"
 #!   FORMAT="JSON"
 #! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text(2048)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text(2048)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text(2048)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="blob"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="blob"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="blob"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="single"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text(20)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text(20)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="smallint"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="objectid"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="guid"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="FILEGDB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="globalid"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="FILEGDB"
+#! />
 #! </DATA_TYPES>
 #! <GEOM_TYPES>
 #! <GEOM_TYPE
@@ -675,6 +891,102 @@
 #!   FME_TYPE="fme_feature_table"
 #!   FORMAT="JSON"
 #! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_polygon"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_polyline"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_multipoint"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_polygon"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_polyline"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_polygon"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_no_geom"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_polygon"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_polyline"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_polyline"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_polygon"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_no_geom"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="FILEGDB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="geodb_no_geom"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="FILEGDB"
+#! />
 #! </GEOM_TYPES>
 #! <FEATURE_TYPES>
 #! <FEATURE_TYPE
@@ -685,8 +997,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="12"
 #!   FEAT_GEOMTYPE="shape_polygon"
-#!   POSITION="-1765.2633126331264 63.74843748437479"
-#!   BOUNDING_RECT="-1765.2633126331264 63.74843748437479 454 71"
+#!   POSITION="-2217.767837678377 56.24836248362476"
+#!   BOUNDING_RECT="-2217.767837678377 56.24836248362476 454 71"
 #!   ORDER="500000000000008"
 #!   COLLAPSED="false"
 #!   KEYWORD="ESRISHAPE_1"
@@ -720,6 +1032,46 @@
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="_jsonBounding" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="北京市_西城区"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="37"
+#!   FEAT_GEOMTYPE="geodb_polygon"
+#!   POSITION="1752.4865248652486 477.2566625666247"
+#!   BOUNDING_RECT="1752.4865248652486 477.2566625666247 454 71"
+#!   ORDER="500000000000026"
+#!   COLLAPSED="false"
+#!   KEYWORD="FILEGDB_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="_xmax" ATTR_TYPE="text(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="_xmin" ATTR_TYPE="text(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="_ymax" ATTR_TYPE="text(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="_ymin" ATTR_TYPE="text(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="filegdb_config_keyword" PARM_VALUE="DEFAULTS"/>
+#!     <DEFLINE_PARM PARM_NAME="filegdb_m_tolerance" PARM_VALUE="0.001"/>
+#!     <DEFLINE_PARM PARM_NAME="filegdb_object_id_alias" PARM_VALUE="OBJECTID"/>
+#!     <DEFLINE_PARM PARM_NAME="filegdb_object_id_field" PARM_VALUE="OBJECTID"/>
+#!     <DEFLINE_PARM PARM_NAME="filegdb_shape_alias" PARM_VALUE="SHAPE"/>
+#!     <DEFLINE_PARM PARM_NAME="filegdb_shape_field" PARM_VALUE="SHAPE"/>
+#!     <DEFLINE_PARM PARM_NAME="filegdb_xy_tolerance" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="filegdb_z_tolerance" PARM_VALUE="0.001"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_configuration_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_feature_operation" PARM_VALUE="INSERT"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_match_columns" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_selection_method" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_creation_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="fme_table_handling" PARM_VALUE="CREATE_IF_MISSING"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_update_geometry" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="fme_where_builder_clause" PARM_VALUE="&lt;Unused&gt;"/>
+#! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
 #! <READER_DATASETS>
@@ -731,6 +1083,11 @@
 #! </READER_DATASETS>
 #! <WRITER_DATASETS>
 #! <DATASET 
+#!   NAME="FILEGDB_1"
+#!   OVERRIDE="-FILEGDB_1_DATASET"
+#!   DATASET="FILEGDB_1/实时路网畅阻情况数据.gdb"
+#! />
+#! <DATASET 
 #!   NAME="JSON_1"
 #!   OVERRIDE="-JSON_1_DATASET"
 #!   DATASET="JSON_1/西城区格网坐标点.json"
@@ -740,11 +1097,11 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_ESRISHAPE Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):"
-#!   DEFAULT_VALUE="C:\Users\YJ\Desktop\城垣\基础数据库\北京市_西城区.shp"
+#!   DEFAULT_VALUE="C:\Users\yj\Desktop\城 · 垣\基础数据库\北京市_西城区.shp"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI OPTIONAL FEATURE_TYPES FEATURE_TYPES C:&lt;backslash&gt;Users&lt;backslash&gt;YJ&lt;backslash&gt;Desktop&lt;backslash&gt;&lt;u57ce&gt;&lt;u57a3&gt;&lt;backslash&gt;&lt;u57fa&gt;&lt;u7840&gt;&lt;u6570&gt;&lt;u636e&gt;&lt;u5e93&gt;&lt;backslash&gt;&lt;u5317&gt;&lt;u4eac&gt;&lt;u5e02&gt;_&lt;u897f&gt;&lt;u57ce&gt;&lt;u533a&gt;.shp,_FORMAT_OVERRIDE_,ESRISHAPE,_DATASET_OVERRIDE_,SourceDataset_ESRISHAPE,ENCODING,fme-source-encoding,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MAXY,0,CLIP_TO_ENVELOPE,NO,TRIM_PRECEDING_SPACES,yes,SIMPLE_DONUT_GEOMETRY,simple,MEASURES_AS_Z,no,DISSOLVE_HOLES,no,REPORT_BAD_GEOMETRY,no,CHECK_NUMERIC_FIELDS,yes,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,_MERGE_SCHEMAS,YES,UPPER_CASE_ATTR_NAMES,No,_MERGE_SCHEMAS,YES Feature Types to Read:"
+#!   GUI_LINE="GUI OPTIONAL FEATURE_TYPES FEATURE_TYPES C:&lt;backslash&gt;Users&lt;backslash&gt;yj&lt;backslash&gt;Desktop&lt;backslash&gt;&lt;u57ce&gt;&lt;space&gt;&lt;u00b7&gt;&lt;space&gt;&lt;u57a3&gt;&lt;backslash&gt;&lt;u57fa&gt;&lt;u7840&gt;&lt;u6570&gt;&lt;u636e&gt;&lt;u5e93&gt;&lt;backslash&gt;&lt;u5317&gt;&lt;u4eac&gt;&lt;u5e02&gt;_&lt;u897f&gt;&lt;u57ce&gt;&lt;u533a&gt;.shp,_FORMAT_OVERRIDE_,ESRISHAPE,_DATASET_OVERRIDE_,SourceDataset_ESRISHAPE,ENCODING,fme-source-encoding,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MAXY,0,CLIP_TO_ENVELOPE,NO,TRIM_PRECEDING_SPACES,yes,SIMPLE_DONUT_GEOMETRY,simple,MEASURES_AS_Z,no,DISSOLVE_HOLES,no,REPORT_BAD_GEOMETRY,no,CHECK_NUMERIC_FIELDS,yes,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,_MERGE_SCHEMAS,YES,UPPER_CASE_ATTR_NAMES,No,_MERGE_SCHEMAS,YES Feature Types to Read:"
 #!   DEFAULT_VALUE=""
 #!   IS_STAND_ALONE="false"
 #! />
@@ -753,15 +1110,20 @@
 #!   DEFAULT_VALUE="C:\Users\YJ\Desktop\西城区格网坐标点.json"
 #!   IS_STAND_ALONE="false"
 #! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI DEST_GEODATABASE DestDataset_FILEGDB 文件 Geodatabase:"
+#!   DEFAULT_VALUE="$(FME_MF_DIR)实时路网畅阻情况数据.gdb"
+#!   IS_STAND_ALONE="false"
+#! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
 #! <COMMENT
 #!   IDENTIFIER="14"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;SimSun&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;北京市_西城区&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-1793.3885938859387 215.87596875968742"
-#!   TOP_LEFT="-1793.3885938859387 215.87596875968742"
-#!   BOTTOM_RIGHT="-1451.7649376493762 117.12528125281236"
-#!   BOUNDING_RECT="-1793.3885938859387 215.87596875968742 341.62365623656251 98.750687506875067"
+#!   POSITION="-2245.8931189311893 208.37589375893734"
+#!   TOP_LEFT="-2245.8931189311893 208.37589375893734"
+#!   BOTTOM_RIGHT="-1904.2694626946268 109.62520625206227"
+#!   BOUNDING_RECT="-2245.8931189311893 208.37589375893734 341.62365623656251 98.750687506875067"
 #!   ORDER="500000000000011"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -773,10 +1135,10 @@
 #! <COMMENT
 #!   IDENTIFIER="15"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;SimSun&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;WGS84&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-1002.7523487734876 -131.87696876968775"
-#!   TOP_LEFT="-1002.7523487734876 -131.87696876968775"
-#!   BOTTOM_RIGHT="-799.12569250692491 -230.62765627656282"
-#!   BOUNDING_RECT="-1002.7523487734876 -131.87696876968775 203.62665626656269 98.750687506875067"
+#!   POSITION="-1110.2534237842378 -66.876318763187697"
+#!   TOP_LEFT="-1110.2534237842378 -66.876318763187697"
+#!   BOTTOM_RIGHT="-906.62676751767515 -165.62700627006276"
+#!   BOUNDING_RECT="-1110.2534237842378 -66.876318763187697 203.62665626656269 98.750687506875067"
 #!   ORDER="500000000000012"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -817,8 +1179,8 @@
 #!   IDENTIFIER="8"
 #!   TYPE="2DGridAccumulator"
 #!   VERSION="4"
-#!   POSITION="-309.37809378093783 -275.00275002750038"
-#!   BOUNDING_RECT="-309.37809378093783 -275.00275002750038 454 71"
+#!   POSITION="-591.88091880918807 -492.50492504925057"
+#!   BOUNDING_RECT="-591.88091880918807 -492.50492504925057 454 71"
 #!   ORDER="500000000000005"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -858,8 +1220,8 @@
 #!   IDENTIFIER="9"
 #!   TYPE="Reprojector"
 #!   VERSION="4"
-#!   POSITION="-943.75943759437587 -275.00275002750038"
-#!   BOUNDING_RECT="-943.75943759437587 -275.00275002750038 454 71"
+#!   POSITION="-1051.260512605126 -210.00210002100033"
+#!   BOUNDING_RECT="-1051.260512605126 -210.00210002100033 454 71"
 #!   ORDER="500000000000006"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1062,68 +1424,6 @@
 #!     <XFORM_PARM PARM_NAME="USE_BOUNDING_BOX" PARM_VALUE="No"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SpatialFilter"/>
 #! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="31"
-#!   TYPE="JSONFragmenter"
-#!   VERSION="7"
-#!   POSITION="-403.00182950907589 -1280.0128001280011"
-#!   BOUNDING_RECT="-403.00182950907589 -1280.0128001280011 431 71"
-#!   ORDER="500000000000014"
-#!   PARMS_EDITED="false"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="18547"
-#! >
-#!     <OUTPUT_FEAT NAME="FRAGMENTS"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="json_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="json_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="direction" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="angle" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="speed" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="polyline" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="EXPLODE_FORMAT" PARM_VALUE="JSON"/>
-#!     <XFORM_PARM PARM_NAME="EXTRACT_ATTR" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="FILEPATH_OR_URL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="FLATTEN_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="INPUT_SETTINGS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="JSON_ATTR" PARM_VALUE="_response_body"/>
-#!     <XFORM_PARM PARM_NAME="JSON_QUERY" PARM_VALUE="json&lt;openbracket&gt;&lt;quote&gt;trafficinfo&lt;quote&gt;&lt;closebracket&gt;&lt;openbracket&gt;&lt;quote&gt;roads&lt;quote&gt;&lt;closebracket&gt;&lt;openbracket&gt;*&lt;closebracket&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="name status direction angle speed polyline"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PREF_STRING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="READ_FROM_FILE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="RECURSIVE" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="REJECT_EMPTY_LISTS" PARM_VALUE="YES"/>
-#!     <XFORM_PARM PARM_NAME="RESULT_ATTRIBUTE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONFragmenter"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="33"
-#!   TYPE="PythonCreator"
-#!   VERSION="3"
-#!   POSITION="-1741.2633126331264 -1175.0117501175012"
-#!   BOUNDING_RECT="-1741.2633126331264 -1175.0117501175012 430 71"
-#!   ORDER="500000000000021"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="19260"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE_NEW" PARM_VALUE="import&lt;space&gt;fmeobjects&lt;lf&gt;import&lt;space&gt;pickle&lt;lf&gt;#&lt;space&gt;Template&lt;space&gt;Class&lt;lf&gt;class&lt;space&gt;FeatureCreator&lt;openparen&gt;object&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;__init__&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;input&lt;openparen&gt;self&lt;comma&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;input&lt;space&gt;method&lt;space&gt;must&lt;space&gt;be&lt;space&gt;defined&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;output&lt;space&gt;features&lt;space&gt;here&lt;space&gt;to&lt;space&gt;create&lt;space&gt;the&lt;space&gt;features&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;before&lt;space&gt;reader&lt;space&gt;features&lt;space&gt;have&lt;space&gt;been&lt;space&gt;processed&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;newFeature&lt;space&gt;=&lt;space&gt;fmeobjects.FMEFeature&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pyoutput&lt;openparen&gt;newFeature&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;close&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;close&lt;space&gt;method&lt;space&gt;must&lt;space&gt;be&lt;space&gt;defined&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;output&lt;space&gt;features&lt;space&gt;here&lt;space&gt;to&lt;space&gt;create&lt;space&gt;the&lt;space&gt;features&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;after&lt;space&gt;reader&lt;space&gt;features&lt;space&gt;have&lt;space&gt;been&lt;space&gt;processed&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="FeatureCreator"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCreator"/>
-#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
@@ -1145,17 +1445,6 @@
 #!   TARGET_PORT_DESC="fi 0 Filter"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="1"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="34"
-#!   SOURCE_NODE="33"
-#!   TARGET_NODE="31"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -1215,6 +1504,17 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="38"
+#!   SOURCE_NODE="20"
+#!   TARGET_NODE="37"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="23"
 #!   SOURCE_NODE="21"
 #!   TARGET_NODE="20"
@@ -1259,15 +1559,18 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 37
-GUI IGNORE SourceDataset_ESRISHAPE_1,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_1,ESRISHAPE_IN_ENCODING_ESRISHAPE_1,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_ADVANCED_ESRISHAPE_1,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1,DestDataset_JSON_1,JSON_OUT_WRITE_FEATURE_TYPE_KEY_JSON_1,JSON_OUT_FEATURE_TYPE_KEY_JSON_1,JSON_OUT_WRITE_GEOMETRY_JSON_1,JSON_OUT_GEOMETRY_KEY_JSON_1,JSON_OUT_GEOMETRY_FORMAT_JSON_1,JSON_OUT_WRITE_COORDINATE_SYSTEM_JSON_1,JSON_OUT_COORDINATE_SYSTEM_KEY_JSON_1,JSON_OUT_COORDINATE_SYSTEM_FORMAT_JSON_1,JSON_OUT_FME_GROUP_NAMED1_JSON_1,JSON_OUT_WRITER_CHARSET_JSON_1,JSON_OUT_WRITE_BOM_JSON_1,JSON_OUT_FME_GROUP_NAMED2_JSON_1,JSON_OUT_PRETTY_PRINT_JSON_1,JSON_OUT_INDENT_SIZE_JSON_1,JSON_OUT_MAX_COORDINATE_PRECISION_JSON_1,JSON_OUT_FME_GROUP_NAMED3_JSON_1,JSON_OUT_JSONP_FUNC_NAME_JSON_1
-DEFAULT_MACRO SourceDataset_ESRISHAPE C:\Users\YJ\Desktop\城垣\基础数据库\北京市_西城区.shp
+GUI IGNORE SourceDataset_ESRISHAPE_1,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_1,ESRISHAPE_IN_ENCODING_ESRISHAPE_1,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_ADVANCED_ESRISHAPE_1,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1,DestDataset_JSON_1,JSON_OUT_WRITE_FEATURE_TYPE_KEY_JSON_1,JSON_OUT_FEATURE_TYPE_KEY_JSON_1,JSON_OUT_WRITE_GEOMETRY_JSON_1,JSON_OUT_GEOMETRY_KEY_JSON_1,JSON_OUT_GEOMETRY_FORMAT_JSON_1,JSON_OUT_WRITE_COORDINATE_SYSTEM_JSON_1,JSON_OUT_COORDINATE_SYSTEM_KEY_JSON_1,JSON_OUT_COORDINATE_SYSTEM_FORMAT_JSON_1,JSON_OUT_FME_GROUP_NAMED1_JSON_1,JSON_OUT_WRITER_CHARSET_JSON_1,JSON_OUT_WRITE_BOM_JSON_1,JSON_OUT_FME_GROUP_NAMED2_JSON_1,JSON_OUT_PRETTY_PRINT_JSON_1,JSON_OUT_INDENT_SIZE_JSON_1,JSON_OUT_MAX_COORDINATE_PRECISION_JSON_1,JSON_OUT_FME_GROUP_NAMED3_JSON_1,JSON_OUT_JSONP_FUNC_NAME_JSON_1,DestDataset_FILEGDB_1,FILEGDB_OUT_FME_CONNECTION_GROUP_FILEGDB_1,FILEGDB_OUT_OVERWRITE_GEODB_FILEGDB_1,FILEGDB_OUT_DATASET_TEMPLATE_FILEGDB_1,FILEGDB_OUT_ADVANCED_FILEGDB_1,FILEGDB_OUT_BEGIN_SQL_FILEGDB_1,FILEGDB_OUT_END_SQL_FILEGDB_1
+DEFAULT_MACRO SourceDataset_ESRISHAPE C:\Users\yj\Desktop\城 · 垣\基础数据库\北京市_西城区.shp
 GUI MULTIFILE SourceDataset_ESRISHAPE Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files(*)|* Source Esri Shapefile(s):
 DEFAULT_MACRO FEATURE_TYPES 
-GUI OPTIONAL FEATURE_TYPES FEATURE_TYPES C:<backslash>Users<backslash>YJ<backslash>Desktop<backslash><u57ce><u57a3><backslash><u57fa><u7840><u6570><u636e><u5e93><backslash><u5317><u4eac><u5e02>_<u897f><u57ce><u533a>.shp,_FORMAT_OVERRIDE_,ESRISHAPE,_DATASET_OVERRIDE_,SourceDataset_ESRISHAPE,ENCODING,fme-source-encoding,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MAXY,0,CLIP_TO_ENVELOPE,NO,TRIM_PRECEDING_SPACES,yes,SIMPLE_DONUT_GEOMETRY,simple,MEASURES_AS_Z,no,DISSOLVE_HOLES,no,REPORT_BAD_GEOMETRY,no,CHECK_NUMERIC_FIELDS,yes,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,_MERGE_SCHEMAS,YES,UPPER_CASE_ATTR_NAMES,No,_MERGE_SCHEMAS,YES Feature Types to Read:
+GUI OPTIONAL FEATURE_TYPES FEATURE_TYPES C:<backslash>Users<backslash>yj<backslash>Desktop<backslash><u57ce><space><u00b7><space><u57a3><backslash><u57fa><u7840><u6570><u636e><u5e93><backslash><u5317><u4eac><u5e02>_<u897f><u57ce><u533a>.shp,_FORMAT_OVERRIDE_,ESRISHAPE,_DATASET_OVERRIDE_,SourceDataset_ESRISHAPE,ENCODING,fme-source-encoding,USE_SEARCH_ENVELOPE,NO,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXX,0,SEARCH_ENVELOPE_MAXY,0,CLIP_TO_ENVELOPE,NO,TRIM_PRECEDING_SPACES,yes,SIMPLE_DONUT_GEOMETRY,simple,MEASURES_AS_Z,no,DISSOLVE_HOLES,no,REPORT_BAD_GEOMETRY,no,CHECK_NUMERIC_FIELDS,yes,NUMERIC_TYPE_ATTRIBUTE_HANDLING,STANDARD_TYPES,_MERGE_SCHEMAS,YES,UPPER_CASE_ATTR_NAMES,No,_MERGE_SCHEMAS,YES Feature Types to Read:
 DEFAULT_MACRO DestDataset_JSON C:\Users\YJ\Desktop\西城区格网坐标点.json
 GUI FILENAME DestDataset_JSON JSON_Files(*.json)|*.json|All_Files|* Destination JSON (JavaScript Object Notation) File:
+DEFAULT_MACRO DestDataset_FILEGDB $(FME_MF_DIR)实时路网畅阻情况数据.gdb
+GUI DEST_GEODATABASE DestDataset_FILEGDB 文件 Geodatabase:
 INCLUDE [ if {{$(SourceDataset_ESRISHAPE)} == {}} { puts_real {Parameter 'SourceDataset_ESRISHAPE' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(DestDataset_JSON)} == {}} { puts_real {Parameter 'DestDataset_JSON' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_FILEGDB)} == {}} { puts_real {Parameter 'DestDataset_FILEGDB' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE MULTI_READER
@@ -1279,6 +1582,8 @@ MULTI_WRITER_DATASET_ORDER BY_ID
 MULTI_WRITER_FIRST_WRITER_ID 0
 MULTI_WRITER_TYPE{0} JSON
 MULTI_WRITER_KEYWORD{0} JSON_1
+MULTI_WRITER_TYPE{1} FILEGDB
+MULTI_WRITER_KEYWORD{1} FILEGDB_1
 #! END_WB_HEADER
 #! START_WB_HEADER
 MACRO WB_KEYWORD "ESRISHAPE_1"
@@ -1482,6 +1787,49 @@ JSON_1_GENERATE_FME_BUILD_NUM 19260
 JSON_1_DATASET "$(DestDataset_JSON_1)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
+MACRO WB_KEYWORD "FILEGDB_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER FILEGDB FILEGDB_1
+GUI SOURCE_GEODATABASE DestDataset_FILEGDB_1 File Geodatabase:
+DEFAULT_MACRO FILEGDB_OUT_FME_CONNECTION_GROUP_FILEGDB_1 
+GUI OPTIONAL DISCLOSUREGROUP FILEGDB_OUT_FME_CONNECTION_GROUP_FILEGDB_1 FILEGDB_OUT_NAMED_CONNECTION%FILEGDB_OUT_OVERWRITE_GEODB_FILEGDB_1%FILEGDB_OUT_DATASET_TEMPLATE_FILEGDB_1 Database Connection
+DEFAULT_MACRO FILEGDB_OUT_WRITE_UNZONED_UTC_FILEGDB_1 No
+FILEGDB_1_WRITE_UNZONED_UTC "$(FILEGDB_OUT_WRITE_UNZONED_UTC_FILEGDB_1)"
+DEFAULT_MACRO FILEGDB_OUT_OVERWRITE_GEODB_FILEGDB_1 NO
+FILEGDB_1_OVERWRITE_GEODB "$(FILEGDB_OUT_OVERWRITE_GEODB_FILEGDB_1)"
+GUI OPTIONAL ACTIVECHECK FILEGDB_OUT_OVERWRITE_GEODB_FILEGDB_1 YES%NO,FILEGDB_OUT_DATASET_TEMPLATE_FILEGDB_1 Overwrite Existing Geodatabase:
+DEFAULT_MACRO FILEGDB_OUT_DATASET_TEMPLATE_FILEGDB_1 
+FILEGDB_1_DATASET_TEMPLATE "$(FILEGDB_OUT_DATASET_TEMPLATE_FILEGDB_1)"
+GUI OPTIONAL SOURCE_GEODATABASE_CFG FILEGDB_OUT_DATASET_TEMPLATE_FILEGDB_1 SWIZZLER:NO Template File Geodatabase:
+GUI LOOKUP FILEGDB_OUT_DATASET_TEMPLATE_FILEGDB_1 <Unused>, 
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO FILEGDB_OUT_DESTINATION_DATASETTYPE_VALIDATION_FILEGDB_1 Yes
+FILEGDB_1_DESTINATION_DATASETTYPE_VALIDATION "$(FILEGDB_OUT_DESTINATION_DATASETTYPE_VALIDATION_FILEGDB_1)"
+DEFAULT_MACRO FILEGDB_OUT_COORDINATE_SYSTEM_GRANULARITY_FILEGDB_1 FEATURE_TYPE
+FILEGDB_1_COORDINATE_SYSTEM_GRANULARITY "$(FILEGDB_OUT_COORDINATE_SYSTEM_GRANULARITY_FILEGDB_1)"
+DEFAULT_MACRO FILEGDB_OUT_ADVANCED_FILEGDB_1 
+GUI OPTIONAL DISCLOSUREGROUP FILEGDB_OUT_ADVANCED_FILEGDB_1 FILEGDB_OUT_BEGIN_SQL_FILEGDB_1%FILEGDB_OUT_END_SQL_FILEGDB_1 Advanced
+DEFAULT_MACRO FILEGDB_OUT_BEGIN_SQL_FILEGDB_1 
+FILEGDB_1_BEGIN_SQL "$(FILEGDB_OUT_BEGIN_SQL_FILEGDB_1)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG FILEGDB_OUT_BEGIN_SQL_FILEGDB_1 MODE,SQL;FORMAT,FILEGDB SQL To Run Before Write
+DEFAULT_MACRO FILEGDB_OUT_END_SQL_FILEGDB_1 
+FILEGDB_1_END_SQL "$(FILEGDB_OUT_END_SQL_FILEGDB_1)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG FILEGDB_OUT_END_SQL_FILEGDB_1 MODE,SQL;FORMAT,FILEGDB SQL To Run After Write
+# ============================================================================ 
+FILEGDB_1_GENERATE_FME_BUILD_NUM 19260
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_FILEGDB_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER FILEGDB FILEGDB_1
+DEFAULT_MACRO DestDataset_FILEGDB_1 $(DestDataset_FILEGDB)
+FILEGDB_1_DATASET "$(DestDataset_FILEGDB_1)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
 #! END_WB_HEADER
 #! END_HEADER
 
@@ -1496,6 +1844,7 @@ FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
 DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_1 ESRISHAPE_1
 DEFAULT_MACRO DATASET_KEYWORD_JSON_1 JSON_1
+DEFAULT_MACRO DATASET_KEYWORD_FILEGDB_1 FILEGDB_1
 # -------------------------------------------------------------------------
 
 ESRISHAPE_1_READER_META_ATTRIBUTES fme_feature_type
@@ -1517,48 +1866,38 @@ FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover
 ESRISHAPE_1_MERGE_DEF ESRISHAPE_1::北京市_西城区 GLOB *
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "北京市_西城区 (ESRISHAPE_1) Splitter"    INPUT FEATURE_TYPE 北京市_西城区    OUTPUT FEATURE_TYPE 北京市_西城区_ESRISHAPE_1_0_1RqvbY/DS78=    OUTPUT FEATURE_TYPE 北京市_西城区_ESRISHAPE_1_1_KFbECpMI408=
+FACTORY_DEF * TeeFactory    FACTORY_NAME "北京市_西城区 (ESRISHAPE_1) Splitter"    INPUT FEATURE_TYPE 北京市_西城区    OUTPUT FEATURE_TYPE 北京市_西城区_ESRISHAPE_1    OUTPUT FEATURE_TYPE 北京市_西城区_ESRISHAPE_1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
-# -------------------------------------------------------------------------
-FME_PYTHON_PATH "$(FME_MF_DIR)"
-FACTORY_DEF * CreationFactory    FACTORY_NAME PythonCreator_Creator    OUTPUT FEATURE_TYPE _____CREATED_PYTHON__
-FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCreator    INPUT FEATURE_TYPE _____CREATED_PYTHON__    SYMBOL_NAME FeatureCreator    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fmeobjects<lf>import<space>pickle<lf>#<space>Template<space>Class<lf>class<space>FeatureCreator<openparen>object<closeparen>:<lf><space><space><space><space>def<space>__init__<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass<lf><space><space><space><space>def<space>input<openparen>self<comma>feature<closeparen>:<lf><space><space><space><space><space><space><space><space>#<space>input<space>method<space>must<space>be<space>defined<lf><space><space><space><space><space><space><space><space>#<lf><space><space><space><space><space><space><space><space>#<space>output<space>features<space>here<space>to<space>create<space>the<space>features<lf><space><space><space><space><space><space><space><space>#<space>before<space>reader<space>features<space>have<space>been<space>processed<lf><space><space><space><space><space><space><space><space>newFeature<space>=<space>fmeobjects.FMEFeature<openparen><closeparen><lf><space><space><space><space><space><space><space><space>self.pyoutput<openparen>newFeature<closeparen><lf><space><space><space><space>def<space>close<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>#<space>close<space>method<space>must<space>be<space>defined<lf><space><space><space><space><space><space><space><space>#<lf><space><space><space><space><space><space><space><space>#<space>output<space>features<space>here<space>to<space>create<space>the<space>features<lf><space><space><space><space><space><space><space><space>#<space>after<space>reader<space>features<space>have<space>been<space>processed<lf><space><space><space><space><space><space><space><space>pass<lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCreator_OUTPUT        @SupplyAttributes(?,fme_feature_type,PythonCreator)
-FACTORY_DEF * BranchingFactory   FACTORY_NAME "PythonCreator_OUTPUT Brancher -1 34"   INPUT FEATURE_TYPE PythonCreator_OUTPUT   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
-# -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFragmenter    INPUT  FEATURE_TYPE PythonCreator_OUTPUT    MODE EXPLODE    EXPLODE_FORMAT JSON    REJECT_EMPTY_LISTS YES    EXTRACT_ATTR Yes    JSON_ATTR "_response_body"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    OUTPUT_ATTRIBUTE "<Unused>"    EXPLODE_QUERY "json<openbracket><quote>trafficinfo<quote><closebracket><openbracket><quote>roads<quote><closebracket><openbracket>*<closebracket>"    RECURSIVE_FLATTEN YES    OUTPUT EXPLODED FEATURE_TYPE JSONFragmenter_FRAGMENTS    OUTPUT REJECTED FEATURE_TYPE JSONFragmenter_<REJECTED>
-FACTORY_DEF * TeeFactory   FACTORY_NAME "JSONFragmenter FRAGMENTS Transformer Output Nuker"   INPUT FEATURE_TYPE JSONFragmenter_FRAGMENTS
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME JSONFragmenter_<Rejected> INPUT FEATURE_TYPE JSONFragmenter_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFragmenter<space><u8f93><u51fa><u4e00><u4e2a><space><lt>Rejected<gt><space><u8981><u7d20><u3002><u5f53><u8981><u7d20><u88ab><u62d2><u7edd><u65f6><uff0c><u9700><u8981><u7ee7><u7eed><u8f6c><u6362><uff0c><u8bf7><u6539><u53d8><space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space><u5230><space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 # check if we have to do the min bounding box calculation
 INCLUDE [    if { {BB} == {MINBB} } {       puts {MACRO BoundingBoxReplacer_BBFunc @Force2D() @Bounds(MIN_BOUNDING,,)};    } elseif { {BB} == {BB} } {       puts {MACRO BoundingBoxReplacer_BBFunc @Force2D() @Bounds(BOUNDING_BOX_AXIS_ALIGNED,,)};    } else {       puts {MACRO BoundingBoxReplacer_BBFunc @Bounds(BOUNDING_CUBE,,)};    } ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME BoundingBoxReplacer    INPUT  FEATURE_TYPE 北京市_西城区_ESRISHAPE_1_0_1RqvbY/DS78=    OUTPUT FEATURE_TYPE BoundingBoxReplacer_BOX         $(BoundingBoxReplacer_BBFunc)
+FACTORY_DEF * TeeFactory    FACTORY_NAME BoundingBoxReplacer    INPUT  FEATURE_TYPE 北京市_西城区_ESRISHAPE_1
 # -------------------------------------------------------------------------
 # Wipe out the source setting if it was untouched from the default setting
 DEFAULT_MACRO Reprojector_SOURCE "Read from feature"
 INCLUDE [if { {Read from feature} == {Read from feature} } {             puts {MACRO Reprojector_SOURCE}          }         ]
-FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE BoundingBoxReplacer_BOX    OUTPUT FEATURE_TYPE Reprojector_REPROJECTED         @Reproject($(Reprojector_SOURCE),"LL-WGS84",NearestNeighbor,PreserveCells,Reprojector,"COORD_SYS_WARNING",RASTER_TOLERANCE,0.0)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Reprojector    INPUT  FEATURE_TYPE BoundingBoxReplacer_BOX
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} BoundingBoxFactory    FACTORY_NAME 2DGridAccumulator    INPUT  FEATURE_TYPE Reprojector_REPROJECTED    REJECT_INVALID_GEOM Yes    BOUNDING_BOX_TYPE "GRID_POLYGONS"    GRID_CELL_SIZE "0.002" "0.002"    GRID_ROW_ATTR "_row"    GRID_COL_ATTR "_column"    GRID_ORIGIN "BOTTOM_LEFT"    OUTPUT BOUNDING_BOX FEATURE_TYPE 2DGridAccumulator_GRID    OUTPUT REJECTED FEATURE_TYPE 2DGridAccumulator_<REJECTED>
+FACTORY_DEF {*} BoundingBoxFactory    FACTORY_NAME 2DGridAccumulator    INPUT  FEATURE_TYPE Reprojector_REPROJECTED    REJECT_INVALID_GEOM Yes    BOUNDING_BOX_TYPE "GRID_POLYGONS"    GRID_CELL_SIZE "0.002" "0.002"    GRID_ROW_ATTR "_row"    GRID_COL_ATTR "_column"    GRID_ORIGIN "BOTTOM_LEFT"    OUTPUT REJECTED FEATURE_TYPE 2DGridAccumulator_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME 2DGridAccumulator_<Rejected> INPUT FEATURE_TYPE 2DGridAccumulator_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, 2DGridAccumulator<space><u8f93><u51fa><u4e00><u4e2a><space><lt>Rejected<gt><space><u8981><u7d20><u3002><u5f53><u8981><u7d20><u88ab><u62d2><u7edd><u65f6><uff0c><u9700><u8981><u7ee7><u7eed><u8f6c><u6362><uff0c><u8bf7><u6539><u53d8><space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space><u5230><space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} SpatialFilterFactory    FACTORY_NAME SpatialFilter    INPUT BASE FEATURE_TYPE 北京市_西城区_ESRISHAPE_1_1_KFbECpMI408=    INPUT CANDIDATE FEATURE_TYPE 2DGridAccumulator_GRID    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR NO    ATTR_ACCUM_MODE "<Unused>"    ATTR_CONFLICT_RES "<Unused>"    BASE_ATTR_PREFIX "<Unused>"    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    REJECT_INVALID_PREDICATES Yes    REJECT_RASTERS No    ALLOW_NULLS Yes    CUSTOM_MULTI_HANDLING Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT PASSED FEATURE_TYPE SpatialFilter_PASSED    OUTPUT REJECTED FEATURE_TYPE SpatialFilter_<REJECTED>
+FACTORY_DEF {*} SpatialFilterFactory    FACTORY_NAME SpatialFilter    INPUT BASE FEATURE_TYPE 北京市_西城区_ESRISHAPE_1    INPUT CANDIDATE FEATURE_TYPE 2DGridAccumulator_GRID    PREDICATE "INTERSECTS"    USE_BOUNDING_BOX NO    MULTIPLE_BASES YES    MERGE_BASE_ATTR NO    ATTR_ACCUM_MODE "<Unused>"    ATTR_CONFLICT_RES "<Unused>"    BASE_ATTR_PREFIX "<Unused>"    PREDICATE_ATTR "_predicate"    BOOLEAN_OPERATOR OR    REJECT_INVALID_GEOM Yes    REJECT_INVALID_PREDICATES Yes    REJECT_RASTERS No    ALLOW_NULLS Yes    CUSTOM_MULTI_HANDLING Yes    DIMENSION 2    CURVE_BOUNDARY_RULE ENDPOINTS_MOD2    OUTPUT REJECTED FEATURE_TYPE SpatialFilter_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME SpatialFilter_<Rejected> INPUT FEATURE_TYPE SpatialFilter_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, SpatialFilter<space><u8f93><u51fa><u4e00><u4e2a><space><lt>Rejected<gt><space><u8981><u7d20><u3002><u5f53><u8981><u7d20><u88ab><u62d2><u7edd><u65f6><uff0c><u9700><u8981><u7ee7><u7eed><u8f6c><u6362><uff0c><u8bf7><u6539><u53d8><space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space><u5230><space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME BoundsExtractor    INPUT  FEATURE_TYPE SpatialFilter_PASSED    OUTPUT FEATURE_TYPE BoundsExtractor_OUTPUT         @Bounds(fme_encoded,_xmin,_xmax,_ymin,_ymax,,,GEOMETRIC)
+FACTORY_DEF * TeeFactory    FACTORY_NAME BoundsExtractor    INPUT  FEATURE_TYPE SpatialFilter_PASSED
 # -------------------------------------------------------------------------
 Tcl2 proc AttributeRounder_round {places} {    set attrs [split {_xmin _ymax _xmax _ymin} { }];    foreach attr $attrs {       set attr [FME_DecodeText $attr];       set original [FME_GetAttribute $attr];       if {$original == {} || [FME_IsAttributeNull $attr]}       {          FME_LogMessage fme_warn 917357 {AttributeRounder} $attr;          continue;       };       set comment {"do not attempt rounding if not a number"};       if {[string is double $original] == 0} {continue};       if { [catch {                set multiplier [expr pow(10,$places)];                set result [expr "round($original * $multiplier) / $multiplier"];                set comment {"when rounding integers, chop trailing .0 from the value"};                if {$places == 0 || [string is wideinteger $original] == 1} {                   set result [regsub {[.]0*$} $result {}];                };             };] == 0 } {          FME_SetAttribute $attr $result;       } else {          FME_LogMessage fme_warn 917350 {AttributeRounder} $attr;       };   }; }
 FACTORY_DEF * TestFactory    FACTORY_NAME AttributeRounder    INPUT  FEATURE_TYPE BoundsExtractor_OUTPUT    TEST "6" TYPE INT ENCODED    OUTPUT FAILED FEATURE_TYPE AttributeRounder_<REJECTED>       fme_rejection_code "INVALID_PARAMETER_DECIMAL_PLACES"    OUTPUT PASSED FEATURE_TYPE __toOutput__
-FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRounder_AttributeRounder    INPUT FEATURE_TYPE __toOutput__    OUTPUT FEATURE_TYPE AttributeRounder_OUTPUT         @Tcl2("AttributeRounder_round 6")
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRounder_AttributeRounder    INPUT FEATURE_TYPE __toOutput__
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeRounder OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeRounder_OUTPUT   OUTPUT FEATURE_TYPE AttributeRounder_OUTPUT   OUTPUT FEATURE_TYPE AttributeRounder_OUTPUT
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME AttributeRounder_<Rejected> INPUT FEATURE_TYPE AttributeRounder_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, AttributeRounder<space><u8f93><u51fa><u4e00><u4e2a><space><lt>Rejected<gt><space><u8981><u7d20><u3002><u5f53><u8981><u7d20><u88ab><u62d2><u7edd><u65f6><uff0c><u9700><u8981><u7ee7><u7eed><u8f6c><u6362><uff0c><u8bf7><u6539><u53d8><space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space><u5230><space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller    INPUT  FEATURE_TYPE AttributeRounder_OUTPUT    SYMBOL_NAME FeatureProcessor    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>from<space>collections<space>import<space>OrderedDict<lf>#<space>Template<space>Function<space>interface:<lf>#<space>When<space>using<space>this<space>function<comma><space>make<space>sure<space>its<space>name<space>is<space>set<space>as<space>the<space>value<space>of<lf>#<space>the<space><apos>Class<space>or<space>Function<space>to<space>Process<space>Features<apos><space>transformer<space>parameter<lf>def<space>processFeature<openparen>feature<closeparen>:<lf><space><space><space><space>pass<lf><lf>#<space>Template<space>Class<space>Interface:<lf>#<space>When<space>using<space>this<space>class<comma><space>make<space>sure<space>its<space>name<space>is<space>set<space>as<space>the<space>value<space>of<lf>#<space>the<space><apos>Class<space>or<space>Function<space>to<space>Process<space>Features<apos><space>transformer<space>parameter<lf>class<space>FeatureProcessor<openparen>object<closeparen>:<lf><space><space><space><space>def<space>__init__<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>self.d=<opencurly><closecurly><lf><space><space><space><space><space><space><space><space>self.id=0<lf><space><space><space><space><space><space><space><space>self.feature=<openbracket><closebracket><lf><space><space><space><space>def<space>input<openparen>self<comma>feature<closeparen>:<lf><space><space><space><space><space><space><space><space>x_min=feature.getAttribute<openparen><apos>_xmin<apos><closeparen><lf><space><space><space><space><space><space><space><space>y_min=feature.getAttribute<openparen><apos>_ymin<apos><closeparen><lf><space><space><space><space><space><space><space><space>x_max=feature.getAttribute<openparen><apos>_xmax<apos><closeparen><lf><space><space><space><space><space><space><space><space>y_max=feature.getAttribute<openparen><apos>_ymax<apos><closeparen><lf><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space>self.d<openbracket>self.id<closebracket>=<opencurly><apos>x_min<apos>:x_min<comma><apos>y_min<apos>:y_min<comma><apos>x_max<apos>:x_max<comma><apos>y_max<apos>:y_max<closecurly><lf><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space>self.id+=1<lf><space><space><space><space><space><space><space><space>self.feature.append<openparen>feature<closeparen><lf><space><space><space><space><space><space><space><space><lf><space><space><space><space>def<space>close<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>for<space>feature<space>in<space>self.feature:<lf><space><space><space><space><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><apos>_jsonBounding<apos><comma>str<openparen>self.d<closeparen><closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>self.pyoutput<openparen>feature<closeparen>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_OUTPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller OUTPUT Transformer Output Nuker"   INPUT FEATURE_TYPE PythonCaller_OUTPUT
 # -------------------------------------------------------------------------
 # If we're doing LAST N features, then the multiplier comes in as 0.
 # If we're doing First N, multiplier is -1.
@@ -1568,13 +1907,15 @@ INCLUDE [ if { {0} == {0} && {ORIGINAL} == {ORIGINAL} } {              puts "MAC
 FACTORY_DEF {*} SamplingFactory    FACTORY_NAME Sampler_2    COMMAND_PARM_EVALUATION SINGLE_PASS    SAMPLE_RATE $(REAL_RATE)    SAMPLE_ORDER $(REAL_MODE)    INPUT  FEATURE_TYPE PythonCaller_OUTPUT    OUTPUT SAMPLED FEATURE_TYPE ___SAMPLED___
 # This TeeFactory is needed because Sampler will still output features if it has no OUTPUT clauses specified.
 # This way we behave nicely even if there are no output connections on the transformer. See PR#28886.
-FACTORY_DEF * TeeFactory    FACTORY_NAME Sampler_2_Sampled    INPUT FEATURE_TYPE ___SAMPLED___    OUTPUT FEATURE_TYPE Sampler_2_SAMPLED
+FACTORY_DEF * TeeFactory    FACTORY_NAME Sampler_2_Sampled    INPUT FEATURE_TYPE ___SAMPLED___
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Sampler_2_SAMPLED TO JSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma><lt>u5317<gt><lt>u4eac<gt><lt>u5e02<gt>_<lt>u897f<gt><lt>u57ce<gt><lt>u533a<gt><closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Sampler_2_SAMPLED TO JSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma><lt>u5317<gt><lt>u4eac<gt><lt>u5e02<gt>_<lt>u897f<gt><lt>u57ce<gt><lt>u533a<gt><closeparen> GEOMETRY    ROUTE FME_GENERIC AttributeRounder_OUTPUT TO FILEGDB __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma><lt>u5317<gt><lt>u4eac<gt><lt>u5e02<gt>_<lt>u897f<gt><lt>u57ce<gt><lt>u533a<gt><closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
 JSON_1_DEF 北京市_西城区   _jsonBounding                string
+# -------------------------------------------------------------------------
+FILEGDB_1_DEF 北京市_西城区   filegdb_type                 geodb_polygon   filegdb_drop_table           ""   filegdb_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   filegdb_object_id_field      OBJECTID   filegdb_object_id_alias      OBJECTID   filegdb_shape_field          SHAPE   filegdb_shape_alias          SHAPE   filegdb_config_keyword       DEFAULTS   filegdb_xy_tolerance         ""   filegdb_z_tolerance          0.001   filegdb_m_tolerance          0.001   _xmax                        text(200)   _xmin                        text(200)   _ymax                        text(200)   _ymin                        text(200)
