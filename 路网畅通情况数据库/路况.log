@@ -1,126 +1,94 @@
-2020-04-18 22:16:46|   0.1|  0.1|INFORM|        FME 2019.0.2.0 (20190605 - Build 19260 - WIN32)
-2020-04-18 22:16:46|   0.1|  0.0|INFORM|875140  FME_HOME is 'E:\FME2019\'
-2020-04-18 22:16:46|   0.1|  0.0|INFORM|875002  FME Desktop Smallworld Edition (floating)
-2020-04-18 22:16:46|   0.1|  0.0|INFORM|875002  Permanent License.
-2020-04-18 22:16:46|   0.1|  0.0|INFORM|875002  Machine host name is: DESKTOP-7PTNL04
-2020-04-18 22:16:46|   0.1|  0.0|INFORM|        START - ProcessID: 14272, peak process memory usage: 36444 kB, current process memory usage: 36444 kB
-2020-04-18 22:16:46|   0.1|  0.0|INFORM|875137  FME Configuration: Command line arguments are `E:\FME2019\fme.exe' `C:/Users/yj/Desktop/城 · 垣/路网畅通情况数据库\wb-xlate-158721940485_14608' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{9207cef9-5754-436a-b29e-5dd1f32f095e}'
-2020-04-18 22:16:46|   0.1|  0.0|INFORM|        FME Configuration: Connection Storage: 'C:\Users\yj\AppData\Roaming\Safe Software\FME\'
-2020-04-18 22:16:46|   0.2|  0.1|INFORM|246020  Shared folders for formats are : E:\FME2019\datasources;C:\Users\yj\Documents\FME\Formats
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246021  Shared folders for transformers are : C:\Users\yj\AppData\Roaming\Safe Software\FME\Packages\19260-win32\transformers;E:\FME2019\transformers;C:\Users\yj\AppData\Roaming\Safe Software\FME\FME Store\Transformers
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246022  Shared folders for coordinate systems are : C:\Users\yj\Documents\FME\CoordinateSystems
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246013  Shared folders for coordinate system exceptions are : C:\Users\yj\Documents\FME\CoordinateSystemExceptions
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246036  Shared folders for coordinate system grid overrides are : C:\Users\yj\Documents\FME\CoordinateSystemGridOverrides
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246037  Shared folders for CS-MAP transformation exceptions are : C:\Users\yj\Documents\FME\CsmapTransformationExceptions
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246023  Shared folders for transformer categories are : C:\Users\yj\Documents\FME\TransformerCategories
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|231001  FME Configuration: Reader Keyword is `MULTI_READER'
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|231002  FME Configuration: Writer Keyword is `MULTI_WRITER'
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|231003  FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|231004  FME Configuration: Reader type is `MULTI_READER'
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|231005  FME Configuration: Writer type is `MULTI_WRITER'
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|231006  FME Configuration: No destination coordinate system set
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|231009  FME Configuration: Current working folder is `C:\Users\yj\Desktop\城 · 垣\路网畅通情况数据库'
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|231052  FME Configuration: Temporary folder is `C:\Users\yj\AppData\Local\Temp', set from environment variable `TEMP'
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|231045  FME Configuration: FME_HOME is `E:\FME2019\'
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246017  FME Configuration: FME_BASE is 'no'
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246017  FME Configuration: FME_MF_DIR is 'C:\Users\yj\Desktop\城 · 垣\路网畅通情况数据库/'
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246017  FME Configuration: FME_MF_NAME is '路况.fmw'
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246017  FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2019.0.2.0'
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246014  System Status: 34.84 GB of disk space available in the FME temporary folder (C:\Users\yj\AppData\Local\Temp)
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246015  System Status: 4.00 GB of virtual memory available
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246016  Operating System: Microsoft Windows 10 64-bit  (Build 18362)
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246025  FME Platform: WIN32
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246026  Locale: zh_CN
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|246027  Code Page: 936   (ANSI/OEM - 简体中文 GBK)
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|918411  FME Configuration: Process limits are 9.88 GB of physical memory and 4.00 GB of address space
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|918400  FME Configuration: Start freeing memory when process usage exceeds 2.83 GB of memory or 3.41 GB of address space
-2020-04-18 22:16:46|   0.2|  0.0|INFORM|918401  FME Configuration: Stop freeing memory when process usage is below 2.12 GB of memory and 2.56 GB of address space
-2020-04-18 22:16:46|   0.3|  0.1|INFORM|872007  Creating writer for format: 
-2020-04-18 22:16:46|   0.3|  0.0|INFORM|871015  Creating reader for format: 
-2020-04-18 22:16:46|   0.3|  0.0|INFORM|224008  MULTI_READER(MULTI_READER): Will fail with first member reader failure
-2020-04-18 22:16:46|   0.3|  0.0|INFORM|224003  Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
-2020-04-18 22:16:46|   0.3|  0.0|INFORM|26052   Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
-2020-04-18 22:16:46|   0.3|  0.0|INFORM|26054   Writer output will be ordered by value of multi_writer_id
-2020-04-18 22:16:46|   0.3|  0.0|INFORM|23016   Loaded module 'LogCount_func' from file 'E:\FME2019\plugins/LogCount_func.dll'
-2020-04-18 22:16:46|   0.3|  0.0|INFORM|23010   FME API version of module 'LogCount_func' matches current internal version (3.8 20181030)
-2020-04-18 22:16:46|   0.3|  0.0|INFORM|231016  Emptying factory pipeline
-2020-04-18 22:16:46|   0.3|  0.0|STATS |370700  Router and Unexpected Input Remover (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
-2020-04-18 22:16:46|   0.3|  0.0|STATS |50001   Unexpected Input Remover Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-04-18 22:16:46|   0.3|  0.0|STATS |50001   Sat_Apr_18_18时53分15秒 (FILEGDB_2) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-04-18 22:16:46|   0.3|  0.0|STATS |393368  Restoring 5938 feature(s) from FME feature store file `C:\Users\yj\AppData\Local\Temp\wb-cache-路况-xGKgSW\主界面_VertexCreator -1 29 fo 0 OUTPUT  0  18e60da92281508dd76144eeed5a169abc6d2d85.ffs'
-2020-04-18 22:16:46|   0.3|  0.0|STATS |393362  Storing feature(s) to FME feature store file `C:\Users\yj\AppData\Local\Temp\wb-cache-路况-xGKgSW\主界面_LineBuilder -1 31 fo 1 LINE  0  8602610657b721edf08726f33c45bdc4bec98c1b.ffsupdating'
-2020-04-18 22:16:46|   0.4|  0.0|STATS |393362  Storing feature(s) to FME feature store file `C:\Users\yj\AppData\Local\Temp\wb-cache-路况-xGKgSW\主界面_AttributeRenamer -1 20 fo 0 OUTPUT  0  54c0d7455fa22b3bc3061d7688488e5cd78bc002.ffsupdating'
-2020-04-18 22:16:46|   0.4|  0.0|STATS |393362  Storing feature(s) to FME feature store file `C:\Users\yj\AppData\Local\Temp\wb-cache-路况-xGKgSW\主界面_AttributeKeeper -1 23 fo 0 OUTPUT  0  c4dd2feeb51376c79f03e81c8e4733e216945207.ffsupdating'
-2020-04-18 22:16:47|   1.0|  0.6|INFORM|872007  Creating writer for format: Esri Geodatabase (File Geodb)
-2020-04-18 22:16:47|   1.2|  0.2|INFORM|872004  Trying to find a DYNAMIC plugin for writer named `GEODATABASE_FILE'
-2020-04-18 22:16:47|   1.3|  0.1|INFORM|23016   Loaded module 'GEODATABASE_FILE' from file 'E:\FME2019\GEODATABASE9.dll'
-2020-04-18 22:16:47|   1.3|  0.0|INFORM|23010   FME API version of module 'GEODATABASE_FILE' matches current internal version (3.8 20181030)
-2020-04-18 22:16:47|   1.3|  0.0|INFORM|231006  FME Configuration: No destination coordinate system set
-2020-04-18 22:16:47|   1.3|  0.0|INFORM|23010   FME API version of module 'GEODATABASE_FILE' matches current internal version (3.8 20181030)
-2020-04-18 22:16:47|   1.3|  0.0|INFORM|395207  Writer `GEODATABASE_FILE_1' of type `GEODATABASE_FILE' using group definition keyword `GEODATABASE_FILE_1_DEF'
-2020-04-18 22:16:47|   1.3|  0.0|INFORM|23010   FME API version of module 'GEODATABASE_FILE' matches current internal version (3.8 20181030)
-2020-04-18 22:16:48|   1.5|  0.2|INFORM|402368  The ArcObjects license 'Advanced' is being selected from the Windows registry
-2020-04-18 22:16:49|   2.7|  1.2|INFORM|901680  FME has checked out an Esri license. The product checked out is 'Advanced'
-2020-04-18 22:16:49|   2.7|  0.0|INFORM|901672  Installed ArcGIS version is '10.2'
-2020-04-18 22:16:50|   3.0|  0.3|INFORM|901668  Connected to the File Geodatabase at 'C:\Users\yj\Desktop\城 · 垣\路网畅通情况数据库\实时路网畅阻情况数据.gdb'
-2020-04-18 22:16:50|   3.0|  0.0|INFORM|901666  File Geodatabase release: '10.0'
-2020-04-18 22:16:50|   3.0|  0.0|INFORM|402051  The 'HAS_Z_VALUES' keyword is set to 'AUTO_DETECT'. With the exception of MultiPatch feature classes, the dimensionality of new feature classes will be based on the first feature written to the feature class. (Features with no geometry are considered 2D)
-2020-04-18 22:16:50|   3.0|  0.0|INFORM|901868  A default z-value of '0' will be used for all 3D features where z-values are not provided
-2020-04-18 22:16:50|   3.0|  0.0|INFORM|901989  Geodatabase Writer: Not simplifying geometries being written to the Geodatabase
-2020-04-18 22:16:50|   3.0|  0.0|INFORM|901892  Transactions are being used by the Geodatabase Writer
-2020-04-18 22:16:50|   3.2|  0.1|INFORM|402118  Geodatabase Writer: The field 'OBJECTID' in table 'Sat_Apr_18_18时53分15秒' will not be updated since it is not editable
-2020-04-18 22:16:50|   3.7|  0.5|INFORM|49074   VertexCreator_OUTPUT_-1_34_Player (RecorderFactory): Played back 5938 feature(s) from file `C:\Users\yj\AppData\Local\Temp\wb-cache-路况-xGKgSW\主界面_VertexCreator -1 29 fo 0 OUTPUT  0  18e60da92281508dd76144eeed5a169abc6d2d85.ffs'
-2020-04-18 22:16:50|   3.7|  0.0|STATS |862007  LineBuilder (ConnectionFactory): Processed 5938 input feature(s). Output 561 feature(s) consisting of 0 polygonal feature(s), 561 linear feature(s), and 0 point feature(s)
-2020-04-18 22:16:50|   3.7|  0.0|STATS |50001   LineBuilder_POINT Feature Counter -1 2147614751 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-04-18 22:16:50|   3.7|  0.0|STATS |50001   LineBuilder_LINE Feature Counter -1 21 (TeeFactory): Cloned 561 input feature(s) into 561 output feature(s)
-2020-04-18 22:16:50|   3.7|  0.0|STATS |50001   LineBuilder_POLYGON Feature Counter -1 2147745823 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-04-18 22:16:50|   3.7|  0.0|STATS |50001   LineBuilder_<REJECTED> Feature Counter -1 2147811359 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-04-18 22:16:50|   3.7|  0.0|STATS |50001   AttributeRenamer_OUTPUT Feature Counter -1 24 (TeeFactory): Cloned 561 input feature(s) into 561 output feature(s)
-2020-04-18 22:16:50|   3.7|  0.0|STATS |50001   AttributeKeeper (TeeFactory): Cloned 561 input feature(s) into 561 output feature(s)
-2020-04-18 22:16:50|   3.7|  0.0|STATS |393374  Stored 561 feature(s) to FME feature store file `C:\Users\yj\AppData\Local\Temp\wb-cache-路况-xGKgSW\主界面_LineBuilder -1 31 fo 1 LINE  0  8602610657b721edf08726f33c45bdc4bec98c1b.ffsupdating'
-2020-04-18 22:16:50|   3.7|  0.0|INFORM|395305  Saving spatial index into file 'C:\Users\yj\AppData\Local\Temp\wb-cache-路况-xGKgSW\主界面_LineBuilder -1 31 fo 1 LINE  0  8602610657b721edf08726f33c45bdc4bec98c1b.fsi'
-2020-04-18 22:16:50|   3.7|  0.0|INFORM|395306  Finished saving spatial index into file 'C:\Users\yj\AppData\Local\Temp\wb-cache-路况-xGKgSW\主界面_LineBuilder -1 31 fo 1 LINE  0  8602610657b721edf08726f33c45bdc4bec98c1b.fsi'
-2020-04-18 22:16:50|   3.7|  0.0|STATS |393374  Stored 561 feature(s) to FME feature store file `C:\Users\yj\AppData\Local\Temp\wb-cache-路况-xGKgSW\主界面_AttributeRenamer -1 20 fo 0 OUTPUT  0  54c0d7455fa22b3bc3061d7688488e5cd78bc002.ffsupdating'
-2020-04-18 22:16:50|   3.7|  0.0|INFORM|395305  Saving spatial index into file 'C:\Users\yj\AppData\Local\Temp\wb-cache-路况-xGKgSW\主界面_AttributeRenamer -1 20 fo 0 OUTPUT  0  54c0d7455fa22b3bc3061d7688488e5cd78bc002.fsi'
-2020-04-18 22:16:50|   3.7|  0.0|INFORM|395306  Finished saving spatial index into file 'C:\Users\yj\AppData\Local\Temp\wb-cache-路况-xGKgSW\主界面_AttributeRenamer -1 20 fo 0 OUTPUT  0  54c0d7455fa22b3bc3061d7688488e5cd78bc002.fsi'
-2020-04-18 22:16:50|   3.7|  0.0|STATS |393374  Stored 561 feature(s) to FME feature store file `C:\Users\yj\AppData\Local\Temp\wb-cache-路况-xGKgSW\主界面_AttributeKeeper -1 23 fo 0 OUTPUT  0  c4dd2feeb51376c79f03e81c8e4733e216945207.ffsupdating'
-2020-04-18 22:16:50|   3.7|  0.0|INFORM|395305  Saving spatial index into file 'C:\Users\yj\AppData\Local\Temp\wb-cache-路况-xGKgSW\主界面_AttributeKeeper -1 23 fo 0 OUTPUT  0  c4dd2feeb51376c79f03e81c8e4733e216945207.fsi'
-2020-04-18 22:16:50|   3.7|  0.0|INFORM|395306  Finished saving spatial index into file 'C:\Users\yj\AppData\Local\Temp\wb-cache-路况-xGKgSW\主界面_AttributeKeeper -1 23 fo 0 OUTPUT  0  c4dd2feeb51376c79f03e81c8e4733e216945207.fsi'
-2020-04-18 22:16:50|   3.7|  0.0|STATS |50001   AttributeKeeper_OUTPUT Feature Counter -1 38 (TeeFactory): Cloned 561 input feature(s) into 561 output feature(s)
-2020-04-18 22:16:50|   3.7|  0.0|STATS |370700  Destination Feature Type Routing Correlator (RoutingFactory): Tested 561 input feature(s), wrote 561 output feature(s): 0 matched merge filters, 561 were routed to output, 0 could not be routed.
-2020-04-18 22:16:50|   3.7|  0.0|STATS |50001   Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2020-04-18 22:16:50|   3.7|  0.0|INFORM|49010   GeodatabaseRelationshipFeaturesPipeline::GeodatabaseRelationshipFeatures (SortFactory): Done sorting 0 feature(s)
-2020-04-18 22:16:51|   3.7|  0.0|INFORM|901874  Transaction #1 (final transaction) was successfully committed
-2020-04-18 22:16:51|   3.7|  0.0|INFORM|901867  Closing the Geodatabase writer
-2020-04-18 22:16:51|   3.8|  0.0|INFORM|395206  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-04-18 22:16:51|   3.8|  0.0|INFORM|395204  Feature output statistics for `GEODATABASE_FILE' writer using keyword `GEODATABASE_FILE_1':
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-04-18 22:16:51|   3.8|  0.0|STATS |                                       Features Written
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        Sat_Apr_18_18时53分15秒                                                    561
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        ==============================================================================
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        Total Features Written                                                     561
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-04-18 22:16:51|   3.8|  0.0|STATS |                                    Features Read Summary
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        ==============================================================================
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        Total Features Read                                                          0
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-04-18 22:16:51|   3.8|  0.0|STATS |                                   Features Written Summary
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        Sat_Apr_18_18时53分15秒                                                    561
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        ==============================================================================
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        Total Features Written                                                     561
-2020-04-18 22:16:51|   3.8|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2020-04-18 22:16:51|   3.8|  0.0|WARN  |        -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2020-04-18 22:16:51|   3.8|  0.0|WARN  |        -~                                                                             ~-
-2020-04-18 22:16:51|   3.8|  0.0|WARN  |        -~                     在转换的每个阶段都记录了要素缓存。                      ~-
-2020-04-18 22:16:51|   3.8|  0.0|WARN  |        -~                             来检查被记录的要素,                             ~-
-2020-04-18 22:16:51|   3.8|  0.0|WARN  |        -~                       点击位于端口旁的要素缓存图标。                        ~-
-2020-04-18 22:16:51|   3.8|  0.0|WARN  |        -~                                                                             ~-
-2020-04-18 22:16:51|   3.8|  0.0|WARN  |        -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2020-04-18 22:16:51|   3.8|  0.0|INFORM|875106  Translation was SUCCESSFUL with 7 warning(s) (561 feature(s) output)
-2020-04-18 22:16:51|   3.8|  0.0|INFORM|246008  FME Session Duration: 4.6 seconds. (CPU: 2.2s user, 1.5s system)
-2020-04-18 22:16:51|   3.8|  0.0|INFORM|        END - ProcessID: 14272, peak process memory usage: 89836 kB, current process memory usage: 89468 kB
+2020-04-19 15:16:45|   0.1|  0.1|INFORM|        FME 2019.0.2.0 (20190605 - Build 19260 - WIN32)
+2020-04-19 15:16:45|   0.1|  0.0|INFORM|875140  FME_HOME is 'E:\FME2019\'
+2020-04-19 15:16:45|   0.1|  0.0|INFORM|875002  FME Desktop Smallworld Edition (floating)
+2020-04-19 15:16:45|   0.1|  0.0|INFORM|875002  Permanent License.
+2020-04-19 15:16:45|   0.1|  0.0|INFORM|875002  Machine host name is: DESKTOP-7PTNL04
+2020-04-19 15:16:45|   0.1|  0.0|INFORM|        START - ProcessID: 15944, peak process memory usage: 36344 kB, current process memory usage: 36344 kB
+2020-04-19 15:16:45|   0.1|  0.0|INFORM|875137  FME Configuration: Command line arguments are `E:\FME2019\fme.exe' `C:/Users/yj/Desktop/城 · 垣/路网畅通情况数据库\wb-xlate-1587280603231_1476' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{ccf79082-7a6f-4f81-82fb-538921b4c8f3}'
+2020-04-19 15:16:45|   0.1|  0.0|INFORM|        FME Configuration: Connection Storage: 'C:\Users\yj\AppData\Roaming\Safe Software\FME\'
+2020-04-19 15:16:45|   0.2|  0.1|INFORM|246020  Shared folders for formats are : E:\FME2019\datasources;C:\Users\yj\Documents\FME\Formats
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246021  Shared folders for transformers are : C:\Users\yj\AppData\Roaming\Safe Software\FME\Packages\19260-win32\transformers;E:\FME2019\transformers;C:\Users\yj\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246022  Shared folders for coordinate systems are : C:\Users\yj\Documents\FME\CoordinateSystems
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246013  Shared folders for coordinate system exceptions are : C:\Users\yj\Documents\FME\CoordinateSystemExceptions
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246036  Shared folders for coordinate system grid overrides are : C:\Users\yj\Documents\FME\CoordinateSystemGridOverrides
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246037  Shared folders for CS-MAP transformation exceptions are : C:\Users\yj\Documents\FME\CsmapTransformationExceptions
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246023  Shared folders for transformer categories are : C:\Users\yj\Documents\FME\TransformerCategories
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|231001  FME Configuration: Reader Keyword is `MULTI_READER'
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|231002  FME Configuration: Writer Keyword is `MULTI_WRITER'
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|231003  FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|231004  FME Configuration: Reader type is `MULTI_READER'
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|231005  FME Configuration: Writer type is `MULTI_WRITER'
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|231006  FME Configuration: No destination coordinate system set
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|231009  FME Configuration: Current working folder is `C:\Users\yj\Desktop\城 · 垣\路网畅通情况数据库'
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|231052  FME Configuration: Temporary folder is `C:\Users\yj\AppData\Local\Temp', set from environment variable `TEMP'
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|231045  FME Configuration: FME_HOME is `E:\FME2019\'
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246017  FME Configuration: FME_BASE is 'no'
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246017  FME Configuration: FME_MF_DIR is 'C:\Users\yj\Desktop\城 · 垣\路网畅通情况数据库/'
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246017  FME Configuration: FME_MF_NAME is '路况.fmw'
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246017  FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2019.0.2.0'
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246014  System Status: 34.82 GB of disk space available in the FME temporary folder (C:\Users\yj\AppData\Local\Temp)
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246015  System Status: 4.00 GB of virtual memory available
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246016  Operating System: Microsoft Windows 10 64-bit  (Build 18362)
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246025  FME Platform: WIN32
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246026  Locale: zh_CN
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|246027  Code Page: 936   (ANSI/OEM - 简体中文 GBK)
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|918411  FME Configuration: Process limits are 9.88 GB of physical memory and 4.00 GB of address space
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|918400  FME Configuration: Start freeing memory when process usage exceeds 2.83 GB of memory or 3.41 GB of address space
+2020-04-19 15:16:45|   0.2|  0.0|INFORM|918401  FME Configuration: Stop freeing memory when process usage is below 2.12 GB of memory and 2.56 GB of address space
+2020-04-19 15:16:45|   0.3|  0.1|INFORM|872007  Creating writer for format: 
+2020-04-19 15:16:45|   0.3|  0.0|INFORM|871015  Creating reader for format: 
+2020-04-19 15:16:45|   0.3|  0.0|INFORM|224008  MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2020-04-19 15:16:45|   0.3|  0.0|INFORM|224003  Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2020-04-19 15:16:45|   0.3|  0.0|INFORM|26052   Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2020-04-19 15:16:45|   0.3|  0.0|INFORM|26054   Writer output will be ordered by value of multi_writer_id
+2020-04-19 15:16:45|   0.3|  0.0|INFORM|23016   Loaded module 'LogCount_func' from file 'E:\FME2019\plugins/LogCount_func.dll'
+2020-04-19 15:16:45|   0.3|  0.0|INFORM|23010   FME API version of module 'LogCount_func' matches current internal version (3.8 20181030)
+2020-04-19 15:16:45|   0.3|  0.0|INFORM|231016  Emptying factory pipeline
+2020-04-19 15:16:45|   0.3|  0.0|STATS |370700  Router and Unexpected Input Remover (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2020-04-19 15:16:45|   0.3|  0.0|STATS |50001   Unexpected Input Remover Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-04-19 15:16:45|   0.3|  0.0|STATS |50001   Sat_Apr_18_18时53分15秒 (FILEGDB_2) Splitter (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-04-19 15:16:45|   0.3|  0.0|STATS |393368  Restoring 561 feature(s) from FME feature store file `C:\Users\yj\AppData\Local\Temp\wb-cache-路况-FaJYdH\主界面_AttributeKeeper -1 23 fo 0 OUTPUT  0  c4dd2feeb51376c79f03e81c8e4733e216945207.ffs'
+2020-04-19 15:16:45|   0.6|  0.3|INFORM|872007  Creating writer for format: Esri Shapefile
+2020-04-19 15:16:45|   0.6|  0.1|INFORM|231006  FME Configuration: No destination coordinate system set
+2020-04-19 15:16:45|   0.6|  0.0|INFORM|206001  Using Shape Writer to write shape files to folder `C:\Users\yj\Desktop\城 · 垣\路网畅通情况数据库'
+2020-04-19 15:16:45|   0.6|  0.0|INFORM|206006  Shape Writer: Allowing attribute names with mixed case
+2020-04-19 15:16:45|   0.6|  0.0|INFORM|206007  Shape Writer: Enabling Strict compatibility
+2020-04-19 15:16:45|   0.6|  0.0|INFORM|395207  Writer `ESRISHAPE_1' of type `ESRISHAPE' using group definition keyword `ESRISHAPE_1_DEF'
+2020-04-19 15:16:45|   0.6|  0.0|INFORM|205003  Opened Shape File 'C:\Users\yj\Desktop\城 · 垣\路网畅通情况数据库\Sat_Apr_18_18时53分15秒.shp' for output
+2020-04-19 15:16:45|   0.6|  0.0|INFORM|300052  Opened DBF file 'C:\Users\yj\Desktop\城 · 垣\路网畅通情况数据库\Sat_Apr_18_18时53分15秒.dbf' for output
+2020-04-19 15:16:45|   0.6|  0.0|INFORM|204040  Detected 2d dimension when writing the shape file
+2020-04-19 15:16:46|   1.0|  0.4|INFORM|49074   AttributeKeeper_OUTPUT_-1_33_Player (RecorderFactory): Played back 561 feature(s) from file `C:\Users\yj\AppData\Local\Temp\wb-cache-路况-FaJYdH\主界面_AttributeKeeper -1 23 fo 0 OUTPUT  0  c4dd2feeb51376c79f03e81c8e4733e216945207.ffs'
+2020-04-19 15:16:46|   1.0|  0.0|STATS |370700  Destination Feature Type Routing Correlator (RoutingFactory): Tested 561 input feature(s), wrote 561 output feature(s): 0 matched merge filters, 561 were routed to output, 0 could not be routed.
+2020-04-19 15:16:46|   1.0|  0.0|STATS |50001   Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2020-04-19 15:16:46|   1.0|  0.0|INFORM|395206  =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-19 15:16:46|   1.0|  0.0|INFORM|395204  Feature output statistics for `ESRISHAPE' writer using keyword `ESRISHAPE_1':
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-19 15:16:46|   1.0|  0.0|STATS |                                       Features Written
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        Sat_Apr_18_18时53分15秒 (Sat_Apr_18_18时53分15秒)                          561
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        ==============================================================================
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        Total Features Written                                                     561
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-19 15:16:46|   1.0|  0.0|STATS |                                    Features Read Summary
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        ==============================================================================
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        Total Features Read                                                          0
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-19 15:16:46|   1.0|  0.0|STATS |                                   Features Written Summary
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        Sat_Apr_18_18时53分15秒                                                    561
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        ==============================================================================
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        Total Features Written                                                     561
+2020-04-19 15:16:46|   1.0|  0.0|STATS |        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2020-04-19 15:16:46|   1.0|  0.0|WARN  |        -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2020-04-19 15:16:46|   1.0|  0.0|WARN  |        -~                                                                             ~-
+2020-04-19 15:16:46|   1.0|  0.0|WARN  |        -~                     在转换的每个阶段都记录了要素缓存。                      ~-
+2020-04-19 15:16:46|   1.0|  0.0|WARN  |        -~                             来检查被记录的要素,                             ~-
+2020-04-19 15:16:46|   1.0|  0.0|WARN  |        -~                       点击位于端口旁的要素缓存图标。                        ~-
+2020-04-19 15:16:46|   1.0|  0.0|WARN  |        -~                                                                             ~-
+2020-04-19 15:16:46|   1.0|  0.0|WARN  |        -~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2020-04-19 15:16:46|   1.0|  0.0|INFORM|875106  Translation was SUCCESSFUL with 7 warning(s) (561 feature(s) output)
+2020-04-19 15:16:46|   1.0|  0.0|INFORM|246008  FME Session Duration: 1.0 seconds. (CPU: 0.5s user, 0.4s system)
+2020-04-19 15:16:46|   1.0|  0.0|INFORM|        END - ProcessID: 15944, peak process memory usage: 75848 kB, current process memory usage: 75848 kB
